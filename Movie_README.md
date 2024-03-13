@@ -1,7 +1,7 @@
 # Project Overview
-We will be performing a <b>quantitative analysis</b> of five well known stocks within the stock market and anwer a few questions that will assist in the selection process of either one or two stocks based upon ones personal preferance.
+We will be performing a <b>quantitative analysis</b> of five well known stocks within the stock market and answer a few questions that will assist in the selection process of a perfered stock; based upon ones personal investment strategy.
 
-We will be taking a look at 5 well know stocks that fall within the Restaurants industry; Consumer Cyclical sector;
+The below selected stocks fall within the Consumer Cyclical sector, restaurants industry;
 - <b>MCD</b>    McDonalds
 - <b>SBUX</b>   Starbucks
 - <b>CMG</b>    Chipotle Mexican Grill
@@ -31,7 +31,7 @@ We will also compare the performance of the selected stocks against relevant ben
 
 
 ## Python Libaries Used
-### *pandas, numpy, seaborn, matplotlip, datetime*
+### *pandas, numpy, seaborn, matplotlip, datetime, yfinance*
 
 ## Data and Exploration
 ### Web-scrapping<br />
