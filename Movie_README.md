@@ -27,8 +27,6 @@ We will be taking a look at 5 well know stocks that fall within the Restaurants 
 We will also compare the performance of the selected stocks against relevant benchmarks, such as market indices like the S&P 500.<br>  
 
 
-Let’s implement all these concepts of Quantitative Analysis of the stock market one by one.
-   </p> 
  
 
 
