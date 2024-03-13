@@ -14,7 +14,7 @@
 - [Recommendations](#recommendations)
 
 # Project Overview
-We will be performing a <b>quantitative analysis</b> of five well known stocks within the stock market and answer a few questions that will assist in the selection process of a perfered stock; based upon ones personal investment strategy.
+We will be performing a <b>quantitative analysis</b> of five well known stocks and answer a few questions that will assist someone in the selection process of a wonderful stock; based upon personal investment strategy.
 
 The below selected stocks fall within the Consumer Cyclical sector, restaurants industry;
 - <b>MCD</b>    McDonalds
@@ -26,7 +26,7 @@ The below selected stocks fall within the Consumer Cyclical sector, restaurants 
 ### To perform a quantitative analysis we will explore the below statistical concepts:
 
 <p>
-<b> 1.Descriptive Statistics: </b>      Summary statistics (mean, median, standard deviation, etc.) for each stock.<br>
+<b> 1.Descriptive Statistics:</b>     Summary statistics (mean, median, standard deviation, etc.) for each stock.<br>
   
 <b> 2.Time Series Analysis:</b>         Trends and patterns over time, especially for closing prices.<br>
 
@@ -42,7 +42,7 @@ The below selected stocks fall within the Consumer Cyclical sector, restaurants 
 We will also compare the performance of the selected stocks against relevant benchmarks, such as market indices like the S&P 500.<br>  
 
 
- 
+ </p>
 
 
 ## Python Libaries Used
