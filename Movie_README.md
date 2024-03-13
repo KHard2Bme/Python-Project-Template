@@ -38,11 +38,12 @@ The below selected stocks fall within the Consumer Cyclical sector, restaurants 
 
 <b> 6.Risk-Return Trade-off Analysis:</b>  Analyzing the balance between the potential risks and rewards of different stocks,                                       aiding in portfolio management.<br>
 
+ </p>
     
 We will also compare the performance of the selected stocks against relevant benchmarks, such as market indices like the S&P 500.<br>  
 
 
- </p>
+
 
 
 ## Python Libaries Used
