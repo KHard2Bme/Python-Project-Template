@@ -1,3 +1,18 @@
+# A Quantitative Analysis of the Stock Market
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Requirements](#requirements)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Pipeline](#data-pipeline)
+- [Limitations](#limitations)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Summary of Findings](#summary-of-findings)
+- [Results from Findings](#results-from-findings)
+- [Recommendations](#recommendations)
+
 # Project Overview
 We will be performing a <b>quantitative analysis</b> of five well known stocks within the stock market and answer a few questions that will assist in the selection process of a perfered stock; based upon ones personal investment strategy.
 
@@ -237,3 +252,137 @@ The data cleaning process involved the following steps:
 For detailed information about the data cleaning process, please refer to the Jupyter notebooks provided in the repository as well as the YouTube link provided above.
 They contain step by step explanations, code samples and documentation showing each stage of the data cleaning process.
 A template to help facilitate the same if you would like to follow along from the YouTube video is also provided within this repository.
+
+
+# Coffee Sales Analysis                                                ☕
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Requirements](#requirements)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Pipeline](#data-pipeline)
+- [Limitations](#limitations)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Summary of Findings](#summary-of-findings)
+- [Results from Findings](#results-from-findings)
+- [Recommendations](#recommendations)
+
+
+![Final_D](https://github.com/KHard2Bme/Coffee_Sales_Dashboard_Excel/assets/146769989/b72ce4bf-cc41-4e5e-b7d2-d4fbcd0458d4)
+
+
+### Project Overview
+---
+
+This data analysis project aims to provide insights into the sales performance of an e-commerce company over the past 4 years. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
+
+
+
+
+
+### Requirements
+---
+
+
+
+### Data Sources
+---
+
+Sales Data: The primary dataset used for this analysis is the "coffeeOrdersData.xlsx" file, containing detailed information about each sale made by a ficticious company.
+
+
+
+
+
+
+### Tools
+---
+
+- Excel - Data Cleaning, processing, analysis, report and dashboard creation.
+
+
+
+      
+## Data Pipeline
+---
+
+### 1. Data Cleaning
+
+Data loading and inspection:
+- Checking column header and rows for correct spelling, null values, extra spaces, datatypes and duplicates.
+
+### 2. Data Processing
+ 
+ Creation of customized columns utilizing the following formulas:
+-  XLOOKUP(), IF(), IFERROR(),PROPER(), INDEX() & MATCH()
+
+
+### 3. Data Analysis
+ 
+
+Creation of Pivot tables, basic and customized charts
+
+### 4. Report/Dashboard
+
+Building of the dashboard as well as adding charts, timeline and slicers 
+ 
+
+### Limitations
+---
+
+
+
+
+### Exploratory Data Analysis
+---
+Questions the client has that can now be answered;
+
+1.What is the total sales, number of transactions, average sales, minimum and maximum sales for coffee in all regions from 2019 through 2022? by year? by country?
+
+2. What is the overall sales trend for most ordered coffee type by country?
+ 
+3. In the United States, what quarter had the most sales from 2019 to 2022?
+ 
+4. In the United States, what month had the most sales from 2019 to 2022?
+
+5. What country had the least amount of sales?
+ 
+6. In the United Kingdom, what year and month had the highest sales; loyalty card holders, coffee type,roast type?
+. 
+7. In the United Kingdom, What month had the lowest sales; loyalty card holders, coffee type,roast type?
+
+8.  How many customers in United Kingdom have Loyalty cards? Total sales? Purchased 0.2kg, 0.5kg, 1kg or 2.5kg size coffee?
+
+9. Regarding total sales in all regions, is there any benefit in being a Loyalty Card holder vs. not?
+
+
+## Summary of Findings
+ 
+1.
+   
+### Results from Findings
+
+The analysis results are summarized as follows:
+
+1.  The United States makes up 96% of total sales within all regions, Ireland providing 3% followed by United Kingdom with a mere 1%
+  
+2.  With majority of sales coming from the United States the largest demand is for coffee type Excelsa, roast Light, and coffee size 2.5kg.
+
+3.  Customers without loyalty cards have a slightly higher total sales and transaction count overall compared to those with a card. There is no special services applied to the loyalty card; for example, product discounts, accruel of points the more you spend, BOGO sales and possibly more delivery times ( overnight/next day ).
+ 
+#### [Overall sales with no card is $24,216 with 521 transactions while those with a card is $20,918 with 479 transactions]
+
+
+
+### Recommendations
+
+Based on the analysis, we recommend the following actions:
+- In order for the company to have more sales, special features and services need to be applied to the loyalty card.
+
+- With a newly revamped loyalty card existing users would take advantage of the incentives and those without would be highly interested in applying for card; subscription and extra features fee can be applied.
+
+- There needs to be more sales taking place within Ireland and the United Kingdom.
+
+- A complete dataset would be beneficial in order to accertain the present health of the company and predict future trends; missing 683 days of information and the year 2022 missing 4 months of data.
