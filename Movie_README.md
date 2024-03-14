@@ -24,7 +24,7 @@ The below selected stocks fall within the Consumer Cyclical sector, restaurants 
 
 
 
- To perform a quantitative analysis we will explore the below statistical concepts: 
+ To perform a quantitative analysis we will explore the below statistical concepts (all within the jupyter notebook): 
 
   
  <p>
@@ -57,7 +57,7 @@ We will also compare the performance of the selected stocks against relevant ben
 # Data Sources
 ---
 
-In order to make some fairly good predictions I chose to collect one years worth of stock price data for McDonalds, Starbucks, Chipotle,Yum Brands and Darden restaurants.<br>
+In order to make some good predictions I chose to collect one years worth of stock price data for McDonalds, Starbucks, Chipotle,Yum Brands and Darden restaurants.<br>
 
 For this task, I used the Yahoo finance API (yfinance) to collect real-time stock market data from 03-13-2023 through 03-13-2024.<br>
 
