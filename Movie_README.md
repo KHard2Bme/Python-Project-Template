@@ -24,7 +24,7 @@ The below selected stocks fall within the Consumer Cyclical sector, restaurants 
 
 
 
- To perform a quantitative analysis we will explore the below statistical concepts (all within the jupyter notebook): 
+ To perform a quantitative analysis we will explore the below statistical concepts: 
 
   
  <p>
@@ -47,6 +47,7 @@ We will also compare the performance of the selected stocks against relevant ben
 
 
 
+>note: Statistical concepts will be shown in detail within Jupyter notebook.
 
 
 # Python Libraries Used
