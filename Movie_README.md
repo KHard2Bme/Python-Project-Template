@@ -46,7 +46,7 @@ We will also compare the performance of the selected stocks against relevant ben
 
 
 
-# Python Libaries Used
+# Python Libraries Used
 *pandas, numpy, seaborn, matplotlip, datetime, yfinance*
 
 
