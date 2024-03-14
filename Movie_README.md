@@ -1,19 +1,18 @@
 # A Quantitative Analysis of the Stock Market
+---
 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Python Libraries Used](#python-libraries-used)
 - [Data Sources](#data-sources)
-- [Tools](#tools)
-- [Data Pipeline](#data-pipeline)
-- [Limitations](#limitations)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Summary of Findings](#summary-of-findings)
 - [Results from Findings](#results-from-findings)
 - [Recommendations](#recommendations)
 
 # Project Overview
+---
 We will be performing a <b>quantitative analysis</b> of five well known stocks and answer a few questions that will assist someone in the selection process of a wonderful stock; based upon personal investment strategy.
 
 The below selected stocks fall within the Consumer Cyclical sector, restaurants industry;
@@ -47,20 +46,21 @@ We will also compare the performance of the selected stocks against relevant ben
 
 
 # Python Libraries Used
+---
 *pandas, numpy, seaborn, matplotlip, datetime, yfinance*
 
 
-## Dataset Source and Overview
+# Data Sources
+---
 
-The FIFA 21 dataset used in this project was obtained from a data cleaning challenge on Twitter which I was a part of.
-It consists of player attributes, statistics and other relevant information.
+In order to make some fairly good predictions I chose to collect one years worth of stock price data for McDonalds, Starbucks, Chipotle,Yum Brands and Darden restaurants.<br>
 
-The original FIFA21 dataset contains 18K+ records of player data. Each record represents a unique player and includes
-various attributes such as player name, age, nationality, club, overall rating and more.
+For this task, I used the Yahoo finance API (yfinance) to collect real-time stock market data from 03-13-2023 through 03-13-2024.<br>
 
 
-## Exploration Questions <br />
 
+# Exploratory Data Analysis
+---
 In my analysis I explore and answer the following questions:
 
 1. What are the most profitable movies and how much should you spend?
@@ -71,6 +71,19 @@ In my analysis I explore and answer the following questions:
 6. What impact, if any, does runtime and movie rating have on Net Profit, Profit Margin and IMDb rating?
 7. Sticking to our analysis of Net Profit and Profit Margin, what should our Company determine to be the baseline for sustainable success?
 8. Based on the success of current competitors, which should we look to for best practices?
+
+# Summary of Findings
+--- 
+1.
+   
+# Results from Findings
+---
+
+# Recommendations
+---
+
+
+
 
 ## Question 1: What are the most profitable movies and how much should you spend?
 
