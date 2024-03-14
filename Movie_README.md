@@ -1,4 +1,4 @@
-# A Quantitative Analysis of the Stock Market
+# A Quantitative Analysis of the Stock Market  💻
 ---
 
 ## Table of Contents
@@ -68,44 +68,79 @@ For this task, I used the Yahoo finance API (yfinance) to collect real-time stoc
 ---
 In my analysis I explore and answer the following questions:
 
-1. What is the closing price for each stock as of 03-13-2024? Average closing price for each stock, standard deviation and how those numbers help in comparring each?
-2. Regrding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
-3. The volatility of the closing price gives us insight into how much the stock price fluctuates over a one year period. How does each stock rank in terms of volatility and in comparrison with each other?
-4. The Correlation Analysis helps us understand how the stock prices of each company are related. What are the findings and what does this tell us?
-5. With Comparative Analysis we can compare the performance of different stocks based on their returns over a one year period. What is the percentage change in closing prices of each stock and how do they compare with each other?
-6. With the Risk-Return Trade-off Analysis stocks with higher average returns and lower risk are generally more desirable, but investment decisions often depend on the investor’s risk tolerance. What is the risk associated with each stock and how do they compare with each other?
-7. Regarding the performance of each stock in comparisson to the S&P 500, what are their beta values and what does that number mean in comparison to the market movements?
+1. What is the closing price for each stock as of 03-13-2024?
+2. WHat is the average closing price for each stock, standard deviation and how do these numbers help in comparring each?
+3. What is the minimum closing price for each stock? What trading day did this occur on?
+4. Regrding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
+5. The volatility of the closing price gives us insight into how much the stock price fluctuates over a one year period. How does each stock rank in terms of volatility and in comparrison with each other?
+6. The Correlation Analysis helps us understand how the stock prices of each company are related. What are the findings and what does this tell us?
+7. With Comparative Analysis we can compare the performance of different stocks based on their returns over a one year period. What is the percentage change in closing prices of each stock and how do they compare with each other?
+8. With the Risk-Return Trade-off Analysis stocks with higher average returns and lower risk are generally more desirable, but investment decisions often depend on the investor’s risk tolerance. What is the risk associated with each stock and how do they compare with each other?
+9. Regarding the performance of each stock in comparisson to the S&P 500, what are their beta values and what does that number mean in comparison to the market movements?
 
 
 # Summary of Findings
 --- 
-### Question 1:  What is the closing price for each stock as of 03-13-2024? Average closing price for each stock, standard deviation and how those numbers help in comparring each?
+### Question 1:  What is the closing price for each stock as of 03-14-2024? 
 
-**Question 1 Conclusion:** Our Company should look towards Disney based upon domestic gross per theater and win rate. This means that Our Company should on average target for a movie to be in a maxium of 3818 theaters at its peak. 
+![closingprice3142014](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/8c0f4405-14fa-433e-ae93-80ae65c1d563)
 
-### Question 2: Regrding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
 
-**Question 2 Conclusion:** Our Company should look towards Disney based upon domestic gross per theater and win rate. This means that Our Company should on average target for a movie to be in a maxium of 3818 theaters at its peak. 
+MCD (McDonald's Corportation)
+On 03-14-2024 the closing price was <b>265.899994</b>.
 
-### Question 3: The volatility of the closing price gives us insight into how much the stock price fluctuates over a one year period. How does each stock rank in terms of volatility and in comparrison with each other?
+SBUX (Starbucks Corporation)
+On 03-14-2024 the closing price was <b>99.459999</b>.
 
-**Question 3 Conclusion:** Our Company should look towards Disney based upon domestic gross per theater and win rate. This means that Our Company should on average target for a movie to be in a maxium of 3818 theaters at its peak. 
+CMG (Chipotle MExican Grill Inc.)
+On 03-14-2024 the closing price was <b>1590.760010</b>.
 
-### Question 4: The Correlation Analysis helps us understand how the stock prices of each company are related. What are the findings and what does this tell us?
+YUM (Yum! Brands Inc.)
+On 03-14-2024 the closing price was <b>126.699997</b>.
 
-**Question 4 Conclusion:** Our Company should look towards Disney based upon domestic gross per theater and win rate. This means that Our Company should on average target for a movie to be in a maxium of 3818 theaters at its peak. 
+DRI (Darden Restaurants Inc.)
+On 03-14-2024 the closing price was <b>147.580002</b>.
 
-### Question 5: With Comparative Analysis we can compare the performance of different stocks based on their returns over a one year period. What is the percentage change in closing prices of each stock and how do they compare with each other?
 
-**Question 5 Conclusion:** Our Company should look towards Disney based upon domestic gross per theater and win rate. This means that Our Company should on average target for a movie to be in a maxium of 3818 theaters at its peak. 
+### Question 2: What is the average closing price for each stock, standard deviation and how do these numbers help in comparring each?
 
-### Question 6: With the Risk-Return Trade-off Analysis stocks with higher average returns and lower risk are generally more desirable, but investment decisions often depend on the investor’s risk tolerance. What is the risk associated with each stock and how do they compare with each other?
+![descriptive](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/d8445ada-a744-4b4f-8bde-a3de30482ee1)
 
-**Question 6 Conclusion:** Our Company should look towards Disney based upon domestic gross per theater and win rate. This means that Our Company should on average target for a movie to be in a maxium of 3818 theaters at its peak. 
 
-### Question 7: Regarding the performance of each stock in comparisson to the S&P 500, what are their beta values and what does that number mean in comparison to the market movements?
+MCD (McDonald's Corportation)
+The average closing price is 284.03, with a standard deviation of 12.59.
 
-**Question 7 Conclusion:** Our Company should aim for a profit margin of 66% and a net profit of slightly over 50 million per movie to compete with the top existing studios.
+SBUX (Starbucks Corporation)
+The average closing price is 98.46, with a standard deviation of 5.15, indicating less variability in closing prices compared to MCD.
+
+CMG (Chipotle MExican Grill Inc.)
+CMG shows the highest average closing price (2081.62) among these stocks and the highest standard deviation (274.88), indicating the most significant price fluctuation.
+
+YUM (Yum! Brands Inc.)
+The average closing price is 130.96, with a standard deviation of 5.58.
+
+DRI (Darden Restaurants Inc.)
+The average closing price is 157.45, with a standard deviation of 9.06.
+
+
+### Question 3: What is the minimum closing price for each stock? What trading day did this occur on?
+### Question 4: Regrding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
+
+
+### Question 5: The volatility of the closing price gives us insight into how much the stock price fluctuates over a one year period. How does each stock rank in terms of volatility and in comparrison with each other?
+
+
+### Question 6: The Correlation Analysis helps us understand how the stock prices of each company are related. What are the findings and what does this tell us?
+
+
+### Question 7: With Comparative Analysis we can compare the performance of different stocks based on their returns over a one year period. What is the percentage change in closing prices of each stock and how do they compare with each other?
+
+
+### Question 8: With the Risk-Return Trade-off Analysis stocks with higher average returns and lower risk are generally more desirable, but investment decisions often depend on the investor’s risk tolerance. What is the risk associated with each stock and how do they compare with each other?
+
+
+### Question 9: Regarding the performance of each stock in comparisson to the S&P 500, what are their beta values and what does that number mean in comparison to the market movements?
+
 
 
 
