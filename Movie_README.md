@@ -22,9 +22,13 @@ The below selected stocks fall within the Consumer Cyclical sector, restaurants 
 - <b>YUM</b>    Yum! Brands
 - <b>DRI</b>    Darden Restaurants
 
-### To perform a quantitative analysis we will explore the below statistical concepts:
 
-<p>
+
+ To perform a quantitative analysis we will explore the below statistical concepts: 
+
+  
+ <p>
+  
 <b> 1.Descriptive Statistics:</b>     Summary statistics (mean, median, standard deviation, etc.) for each stock.<br>
   
 <b> 2.Time Series Analysis:</b>         Trends and patterns over time, especially for closing prices.<br>
