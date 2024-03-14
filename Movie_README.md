@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Requirements](#python-libraries-used)
+- [Python Libraries Used](#python-libraries-used)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Data Pipeline](#data-pipeline)
