@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Requirements](#requirements)
+- [Requirements](#python-libraries-used)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Data Pipeline](#data-pipeline)
@@ -46,8 +46,8 @@ We will also compare the performance of the selected stocks against relevant ben
 
 
 
-## Python Libaries Used
-### *pandas, numpy, seaborn, matplotlip, datetime, yfinance*
+# Python Libaries Used
+*pandas, numpy, seaborn, matplotlip, datetime, yfinance*
 
 
 ## Dataset Source and Overview
