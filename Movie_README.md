@@ -68,7 +68,7 @@ For this task, I used the Yahoo finance API (yfinance) to collect real-time stoc
 ---
 In my analysis I explore and answer the following questions:
 
-1. What is the closing price for each stock as of 03-13-2024?
+1. What is the closing price for each stock as of 03-14-2024?
 2. WHat is the average closing price for each stock, standard deviation and how do these numbers help in comparring each?
 3. What is the minimum closing price for each stock? What trading day did this occur on?
 4. Regrding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
@@ -82,24 +82,25 @@ In my analysis I explore and answer the following questions:
 # Summary of Findings
 --- 
 ### Question 1:  What is the closing price for each stock as of 03-14-2024? 
+![3142024](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/99795063-5dbc-4fb2-be9a-d272f510a8f0)
 
-![closingprice3142014](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/8c0f4405-14fa-433e-ae93-80ae65c1d563)
+
 
 
 MCD (McDonald's Corportation)
-On 03-14-2024 the closing price was <b>265.899994</b>.
+On 03-14-2024 the closing price was <b>281.94</b>.
 
 SBUX (Starbucks Corporation)
-On 03-14-2024 the closing price was <b>99.459999</b>.
+On 03-14-2024 the closing price was <b>91.66</b>.
 
 CMG (Chipotle MExican Grill Inc.)
-On 03-14-2024 the closing price was <b>1590.760010</b>.
+On 03-14-2024 the closing price was <b>2748</b>.
 
 YUM (Yum! Brands Inc.)
-On 03-14-2024 the closing price was <b>126.699997</b>.
+On 03-14-2024 the closing price was <b>137.20</b>.
 
 DRI (Darden Restaurants Inc.)
-On 03-14-2024 the closing price was <b>147.580002</b>.
+On 03-14-2024 the closing price was <b>171.87</b>.
 
 
 ### Question 2: What is the average closing price for each stock, standard deviation and how do these numbers help in comparring each?
@@ -108,22 +109,50 @@ On 03-14-2024 the closing price was <b>147.580002</b>.
 
 
 MCD (McDonald's Corportation)
-The average closing price is 284.03, with a standard deviation of 12.59.
+The average closing price is <b>284.03</b>, with a standard deviation of <b>12.59</b>.
 
 SBUX (Starbucks Corporation)
-The average closing price is 98.46, with a standard deviation of 5.15, indicating less variability in closing prices compared to MCD.
+The average closing price is <b>98.46</b>, with a standard deviation of <b>5.15</b>, indicating less variability in closing prices compared to MCD.
 
 CMG (Chipotle MExican Grill Inc.)
-CMG shows the highest average closing price (2081.62) among these stocks and the highest standard deviation (274.88), indicating the most significant price fluctuation.
+CMG shows the highest average closing price (<b>2081.62</b>) among these stocks and the highest standard deviation (<b>274.88</b>), indicating the most significant price fluctuation.
 
 YUM (Yum! Brands Inc.)
-The average closing price is 130.96, with a standard deviation of 5.58.
+The average closing price is <b>130.96</b>, with a standard deviation of <b>5.58</b>.
 
 DRI (Darden Restaurants Inc.)
-The average closing price is 157.45, with a standard deviation of 9.06.
+The average closing price is <b>157.45</b>, with a standard deviation of <b>9.06</b>.
 
 
 ### Question 3: What is the minimum closing price for each stock? What trading day did this occur on?
+
+>note: The minumum closing price in comparrison to price on 03-14-2024 allows you to see what trading day provided the perfect buying opportunity.
+
+![MCD_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0b059ffb-c356-42ed-b685-1485ba5b55ca)
+MCD (McDonald's Corportation)
+- The minumum closing price is <b>246.19</b> which took place on 10-12-2023
+- The closing price was <b>281.94</b> On 03-14-2024 
+
+![SBUX_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/be4fe367-1104-42cf-9b13-c7f02d8a751a)
+SBUX (Starbucks Corporation)
+- The minumum closing price is 89.48	 which took place on 10-03-2023
+
+![CMG_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/bf8562b6-ddb4-44e6-8a1a-f963b8610bdb)
+
+CMG (Chipotle MExican Grill Inc.)
+- The minumum closing price is 1590.76 which took place on 03-14-2023
+
+![Yum_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/6f405f97-8f6e-487d-8a10-cb57785a01b1)
+
+YUM (Yum! Brands Inc.)
+- The minumum closing price is 116.25 which took place on 10-12-2023
+
+![DRI_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/ef5e6ae7-1880-4dd5-b210-6b74f42658ab)
+
+DRI (Darden Restaurants Inc.)
+- The minumum closing price is 134 which took place on 10-13-2023
+
+
 ### Question 4: Regrding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
 
 
