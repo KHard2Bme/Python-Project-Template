@@ -13,7 +13,9 @@
 
 # Project Overview
 ---
-We will be performing a <b>quantitative analysis</b> of five well known stocks and answer a few questions that will assist someone in the selection process of a wonderful stock; based upon personal investment strategy.
+We will be performing a <b>quantitative analysis</b> of five well known stocks and answer questions that can assist in the selection process of a wonderful stock; we will assume personal investment style is risk averse.
+
+>note: Risk-averse investors prioritize the safety of principal over the possibility of a higher return on their money. They prefer liquid investments. 
 
 The below selected stocks fall within the Consumer Cyclical sector, restaurants industry;
 - <b>MCD</b>    McDonalds
