@@ -71,7 +71,7 @@ For this task, I used the Yahoo finance API (yfinance) to collect real-time stoc
 In my analysis I explore and answer the following questions:
 
 1. What is the closing price for each stock as of 03-14-2024?
-2. WHat is the average closing price for each stock, standard deviation and how do these numbers help in comparring each?
+2. What is the average closing price for each stock, standard deviation and how do these numbers help in comparrison?
 3. What is the minimum closing price for each stock? What trading day did this occur on?
 4. Regrding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
 5. The volatility of the closing price gives us insight into how much the stock price fluctuates over a one year period. How does each stock rank in terms of volatility and in comparrison with each other?
@@ -106,7 +106,7 @@ DRI (Darden Restaurants Inc.)
 On 03-14-2024 the closing price was <b>171.77</b>.
 
 
-### Question 2: What is the average closing price for each stock, standard deviation and how do these numbers help in comparring each?
+### Question 2: What is the average closing price for each stock, standard deviation and how do these numbers help in comparrison?
 
 ![descriptive](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/b8dd14a7-55a4-433b-8bdc-2402cc8439ef)
 
@@ -127,6 +127,8 @@ The average closing price is <b>131</b>, with a standard deviation of <b>5.59</b
 DRI (Darden Restaurants Inc.)
 The average closing price is <b>157.54</b>, with a standard deviation of <b>9.09</b>.
 
+Overall, SBUX, YUM and DRI all show modest growth with slight variability in closing prices, MCD shows a bit more variability but it is CMG which has the most price fluctuation out of all the stocks.
+
 
 ### Question 3: What is the minimum closing price for each stock? What trading day did this occur on?
 
@@ -136,52 +138,87 @@ The average closing price is <b>157.54</b>, with a standard deviation of <b>9.09
 
 MCD (McDonald's Corportation)
 - The minumum closing price is <b>246.19</b> which took place on 10-12-2023
-- The closing price was <b>281.94</b> On 03-14-2024 
+- In comparrison the closing price was <b>281.73</b> on 03-14-2024 
 
 ![SBUX_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/164eb712-7e9e-49c5-a23b-f57b76a77e94)
 
 SBUX (Starbucks Corporation)
-- The minumum closing price is 89.48	 which took place on 10-03-2023
-
+- The minumum closing price is <b>89.48</b> which took place on 10-03-2023
+- In comparrison the closing price was <b>91.66</b> on 03-14-2024 
 
 ![CMG_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/268f10db-03c8-4c04-a8f8-f106e41f95f8)
 
 CMG (Chipotle MExican Grill Inc.)
-- The minumum closing price is 1590.76 which took place on 03-14-2023
-
+- The minumum closing price is <b>1590.87</b> which took place on 03-15-2023
+- In comparrison the closing price was <b>2748.52</b> on 03-14-2024 
 
 ![YUM_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/33868a14-6632-4c66-9ef6-ba352ec30361)
 
 YUM (Yum! Brands Inc.)
-- The minumum closing price is 116.25 which took place on 10-12-2023
-
+- The minumum closing price is <b>116.25</b> which took place on 10-12-2023
+- In comparrison the closing price was <b>137.16</b> on 03-14-2024 
 
 ![DRI_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0ab93139-d60f-4b0e-83dc-e2c607713e26)
 
 DRI (Darden Restaurants Inc.)
-- The minumum closing price is 134 which took place on 10-13-2023
+- The minumum closing price is <b>134</b> which took place on 10-13-2023
+- In comparrison the closing price was <b>171.77</b> on 03-14-2024 
 
+### Question 4: Regarding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
 
-### Question 4: Regrding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
+![time_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/e44f2a9d-5c81-4e33-84cb-1cd28d1f0cab)
+The above plot displays the time series of the closing prices for each stock (MCD, SBUX, CMG, YUM, DRI) over a one year observed period. 
+
+- Trend: Each stock shows its unique trend over time. For instance, AAPL and MSFT exhibit a general upward trend in this period.
+- Volatility: There is noticeable volatility in the stock prices. For example, NFLX shows more pronounced fluctuations compared to others.
+- Comparative Performance: When comparing the stocks, MSFT and NFLX generally trade at higher price levels than AAPL and GOOG in this dataset.
 
 
 ### Question 5: The volatility of the closing price gives us insight into how much the stock price fluctuates over a one year period. How does each stock rank in terms of volatility and in comparrison with each other?
 
+![volatility_analysis](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/1cf03a18-aab0-49ff-b53e-1234f1c665e5)
+
+NFLX: Highest volatility with a standard deviation of approximately 18.55.
+MSFT: Next highest, with a standard deviation of around 17.68.
+AAPL: Lower volatility compared to NFLX and MSFT, with a standard deviation of about 7.36.
+GOOG: The least volatile in this set, with a standard deviation of approximately 6.28.
+It indicates that NFLX and MSFT stocks were more prone to price fluctuations during this period compared to AAPL and GOOG.
 
 ### Question 6: The Correlation Analysis helps us understand how the stock prices of each company are related. What are the findings and what does this tell us?
+![corr_ananysis](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/b6acb344-c34a-402c-83b8-0d1a85ae4430)
+ Correlation Analysis to understand how the stock prices of these companies are related to each other:
+
+From the heatmap, we can observe that there are varying degrees of positive correlations between the stock prices, with some pairs showing stronger correlations than others. For instance, AAPL and MSFT seem to have a relatively higher positive correlation.
+
 
 
 ### Question 7: With Comparative Analysis we can compare the performance of different stocks based on their returns over a one year period. What is the percentage change in closing prices of each stock and how do they compare with each other?
+![compare_anaysis](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/14ef01ee-fea1-42a6-a16e-3d32125e83d4)
+
+The bar chart and the accompanying data show the percentage change in the closing prices of the stocks from the start to the end of the observed period:
+
+MSFT: The highest positive change of approximately 16.10%.
+AAPL: Exhibited a positive change of approximately 12.23%. It indicates a solid performance, though slightly lower than MSFT’s.
+GOOG: Showed a slight negative change of about -1.69%. It indicates a minor decline in its stock price over the observed period.
+NFLX: Experienced the most significant negative change, at approximately -11.07%. It suggests a notable decrease in its stock price during the period.
 
 
 ### Question 8: With the Risk-Return Trade-off Analysis stocks with higher average returns and lower risk are generally more desirable, but investment decisions often depend on the investor’s risk tolerance. What is the risk associated with each stock and how do they compare with each other?
+![daily_risk](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/71e3ee4c-bbf7-4083-aaef-d5e66f487852)
 
+So, AAPL shows the lowest risk combined with a positive average daily return, suggesting a more stable investment with consistent returns. GOOG has higher volatility than AAPL and, on average, a slightly negative daily return, indicating a riskier and less rewarding investment during this period.
+
+MSFT shows moderate risk with the highest average daily return, suggesting a potentially more rewarding investment, although with higher volatility compared to AAPL. NFLX exhibits the highest risk and a negative average daily return, indicating it was the most volatile and least rewarding investment among these stocks over the analyzed period.
 
 ### Question 9: Regarding the performance of each stock in comparisson to the S&P 500, what are their beta values and what does that number mean in comparison to the market movements?
 
+![beta](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/c986655b-d555-4cfb-b327-a778587e5f6b)
 
+In the above code, we are assessing how sensitive Apple and Google stocks are to overall market movements, providing insights into their relative volatility and risk about the broader U.S. stock market represented by the S&P 500 index.
 
+In the above output, the beta value for Apple is approximately 1.2257. This beta value suggests that Apple’s stock is estimated to be approximately 22.57% more volatile or sensitive to market movements (as represented by the S&P 500 index) compared to the overall market. The beta value for Google is approximately 1.5303. This beta value suggests that Google’s stock is estimated to be approximately 53.03% more volatile or sensitive to market movements.
 
+A beta greater than 1 suggests that a stock tends to be more volatile than the market. In this case, both Apple and Google have beta values greater than 1, indicating that they are expected to be more volatile and sensitive to market movements. Google’s higher beta value (1.5303) compared to Apple’s (1.2257) suggests that Google’s stock is estimated to have a higher degree of market sensitivity or risk compared to Apple. Investors should consider this information when making investment decisions, as higher-beta stocks can provide greater potential for returns but also carry a higher level of risk.
    
 # Results from Findings
 ---
