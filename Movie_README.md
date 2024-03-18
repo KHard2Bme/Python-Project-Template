@@ -70,10 +70,10 @@ For this task, I used the Yahoo finance API (yfinance) to collect real-time stoc
 ---
 In my analysis I explore and answer the following questions:
 
-1. What is the closing price for each stock as of 03-14-2024?
-2. What is the average closing price for each stock, standard deviation and how do these numbers help in comparrison?
+1. What is the average closing price for each stock, standard deviation and how do these numbers help in comparrison?
+2. What is the closing price for each stock as of 03-14-2024?
 3. What is the minimum closing price for each stock? What trading day did this occur on?
-4. Regrding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
+4. Regarding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
 5. The volatility of the closing price gives us insight into how much the stock price fluctuates over a one year period. How does each stock rank in terms of volatility and in comparrison with each other?
 6. The Correlation Analysis helps us understand how the stock prices of each company are related. What are the findings and what does this tell us?
 7. With Comparative Analysis we can compare the performance of different stocks based on their returns over a one year period. What is the percentage change in closing prices of each stock and how do they compare with each other?
