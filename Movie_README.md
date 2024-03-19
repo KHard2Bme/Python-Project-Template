@@ -162,8 +162,9 @@ DRI (Darden Restaurants Inc.)
 - In comparrison the closing price is <b>173.65</b> on 03-19-2024 
 
 ### Question 4: Regarding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
+![NEW_timeseries](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/7220a477-19f6-4cc2-8d78-3b6b22e297b2)
 
-![time_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/e44f2a9d-5c81-4e33-84cb-1cd28d1f0cab)
+
 The above plot displays the time series of the closing prices for each stock (MCD, SBUX, CMG, YUM, DRI) over a one year observed period. 
 Let us next take a closer look at each stock individually so we can make an accurate reading.
 
@@ -196,7 +197,8 @@ GOOG: The least volatile in this set, with a standard deviation of approximately
 It indicates that NFLX and MSFT stocks were more prone to price fluctuations during this period compared to AAPL and GOOG.
 
 ### Question 6: The Correlation Analysis helps us understand how the stock prices of each company are related. What are the findings and what does this tell us?
-![corr_ananysis](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/b6acb344-c34a-402c-83b8-0d1a85ae4430)
+![corr_analysis](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/95c86d97-1d8e-4cc7-8b8f-e1329dfafb00)
+
  Correlation Analysis to understand how the stock prices of these companies are related to each other:
 
 From the heatmap, we can observe that there are varying degrees of positive correlations between the stock prices, with some pairs showing stronger correlations than others. For instance, AAPL and MSFT seem to have a relatively higher positive correlation.
