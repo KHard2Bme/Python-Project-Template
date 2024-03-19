@@ -62,7 +62,7 @@ We will also compare the performance of the selected stocks against relevant ben
 
 In order to make some good predictions I chose to collect one years worth of stock price data for McDonalds, Starbucks, Chipotle,Yum Brands and Darden restaurants.<br>
 
-For this task, I used the Yahoo finance API (yfinance) to collect real-time stock market data from 03-13-2023 through 03-13-2024.<br>
+For this task, I used the Yahoo finance API (yfinance) to collect real-time stock market data from 03-13-2023 through 03-14-2024.<br>
 
 
 
@@ -70,7 +70,7 @@ For this task, I used the Yahoo finance API (yfinance) to collect real-time stoc
 ---
 In my analysis I explore and answer the following questions:
 
-1. What is the average closing price for each stock, standard deviation and how do these numbers help in comparrison?
+1. What is the average closing price for each stock, standard deviation and how do these stocks compare?
 2. What is the closing price for each stock as of 03-14-2024?
 3. What is the minimum closing price for each stock? What trading day did this occur on?
 4. Regarding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
@@ -83,10 +83,29 @@ In my analysis I explore and answer the following questions:
 
 # Summary of Findings
 --- 
-### Question 1:  What is the closing price for each stock as of 03-14-2024? 
+### Question 1: What is the average closing price for each stock, standard deviation and how do these stocks compare?
+
+![descriptive](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/b8dd14a7-55a4-433b-8bdc-2402cc8439ef)
+
+CMG (Chipotle Mexican Grill Inc.)
+CMG shows the highest average closing price (<b>2086.23</b>) among these stocks and the highest standard deviation (<b>276.39</b>), indicating the most significant price fluctuation.
+
+DRI (Darden Restaurants Inc.)
+The average closing price is <b>157.54</b>, with a standard deviation of <b>9.09</b>.
+
+MCD (McDonald's Corportation)
+The average closing price is <b>284.09</b>, with a standard deviation of <b>12.55</b>, indicting more variability in closing prices compared to DRI.
+
+SBUX (Starbucks Corporation)
+The average closing price is <b>98.42</b>, with a standard deviation of <b>5.17</b>.
+
+YUM (Yum! Brands Inc.)
+The average closing price is <b>131</b>, with a standard deviation of <b>5.59</b>.
+
+Overall, SBUX, YUM and DRI all show modest growth with slight fluctuation in closing prices, MCD shows a bit more variability but it is CMG which has the most price fluctuation out of all the stocks.
+
+### Question 2:  What is the closing price for each stock as of 03-14-2024? 
 ![3142024](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/adbd1cdf-3703-41fd-bee0-8a8e02c6cffa)
-
-
 
 
 
@@ -104,30 +123,6 @@ On 03-14-2024 the closing price was <b>137.16</b>.
 
 DRI (Darden Restaurants Inc.)
 On 03-14-2024 the closing price was <b>171.77</b>.
-
-
-### Question 2: What is the average closing price for each stock, standard deviation and how do these numbers help in comparrison?
-
-![descriptive](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/b8dd14a7-55a4-433b-8bdc-2402cc8439ef)
-
-
-
-MCD (McDonald's Corportation)
-The average closing price is <b>284.09</b>, with a standard deviation of <b>12.55</b>.
-
-SBUX (Starbucks Corporation)
-The average closing price is <b>98.42</b>, with a standard deviation of <b>5.17</b>, indicating less variability in closing prices compared to MCD.
-
-CMG (Chipotle MExican Grill Inc.)
-CMG shows the highest average closing price (<b>2086.23</b>) among these stocks and the highest standard deviation (<b>276.39</b>), indicating the most significant price fluctuation.
-
-YUM (Yum! Brands Inc.)
-The average closing price is <b>131</b>, with a standard deviation of <b>5.59</b>, similar variability in closing prices compared to SBUX.
-
-DRI (Darden Restaurants Inc.)
-The average closing price is <b>157.54</b>, with a standard deviation of <b>9.09</b>.
-
-Overall, SBUX, YUM and DRI all show modest growth with slight variability in closing prices, MCD shows a bit more variability but it is CMG which has the most price fluctuation out of all the stocks.
 
 
 ### Question 3: What is the minimum closing price for each stock? What trading day did this occur on?
