@@ -71,7 +71,7 @@ For this task, I used the Yahoo finance API (yfinance) to collect real-time stoc
 In my analysis I explore and answer the following questions:
 
 1. What is the average closing price for each stock, standard deviation and how do these stocks compare?
-2. What is the closing price for each stock as of 03-14-2024?
+2. What is the closing price for each stock as of 03-19-2024?
 3. What is the minimum closing price for each stock? What trading day did this occur on?
 4. Regarding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
 5. The volatility of the closing price gives us insight into how much the stock price fluctuates over a one year period. How does each stock rank in terms of volatility and in comparrison with each other?
@@ -84,88 +84,101 @@ In my analysis I explore and answer the following questions:
 # Summary of Findings
 --- 
 ### Question 1: What is the average closing price for each stock, standard deviation and how do these stocks compare?
-![describe](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/213f5889-99d8-4cd8-9f7f-07cc56b15dbd)
+![describe](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/d400c6b3-5e11-47de-bd08-a1242b13c72e)
 
 
 CMG (Chipotle Mexican Grill Inc.)
-CMG shows the highest average closing price (<b>2094.68</b>) among these stocks and the highest standard deviation (<b>275.82</b>), indicating the most significant price fluctuation.
+CMG shows the highest average closing price (<b>2097.45</b>) among these stocks and the highest standard deviation (<b>278.77</b>), indicating the most significant price fluctuation.
 
 DRI (Darden Restaurants Inc.)
-The average closing price is <b>157.71</b>, with a standard deviation of <b>9.12</b>.
+The average closing price is <b>157.77</b>, with a standard deviation of <b>9.16</b>.
 
 MCD (McDonald's Corportation)
-The average closing price is <b>284.26</b>, with a standard deviation of <b>12.47</b>, indicting more variability in closing prices compared to DRI, SBUX and YUM.
+The average closing price is <b>284.25</b>, with a standard deviation of <b>12.45</b>, indicting more variability in closing prices compared to DRI, SBUX and YUM.
 
 SBUX (Starbucks Corporation)
-The average closing price is <b>98.38</b>, with a standard deviation of <b>5.21</b>, which has the smallest fluctuation in closing prices out of all the stocks.
+The average closing price is <b>98.35</b>, with a standard deviation of <b>5.22</b>, which has the smallest fluctuation in closing prices out of all the stocks.
 
 YUM (Yum! Brands Inc.)
-The average closing price is <b>131.06</b>, with a standard deviation of <b>5.60</b>.
+The average closing price is <b>131.09</b>, with a standard deviation of <b>5.61</b>.
 
 Overall, SBUX and YUM show modest growth with slight fluctuation in closing prices, DRI shows a bit more variability followed by MCD, but it is CMG which has the most price fluctuation out of all the stocks.
 
-### Question 2:  What is the closing price for each stock as of 03-14-2024? 
-![3142024](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/3aea93a2-686e-4f34-8a22-ebe6b1376a76)
-
+### Question 2:  What is the closing price for each stock as of 03-19-2024? 
+![3192024](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/21db24db-ce47-476c-8e3b-7ef59ca510cc)
 
 
 
 MCD (McDonald's Corportation)
-On 03-14-2024 the closing price is <b>281.73</b>.
+On 03-19-2024 the closing price is <b>283.15</b>.
 
 SBUX (Starbucks Corporation)
-On 03-14-2024 the closing price is <b>91.66</b>.
+On 03-19-2024 the closing price is <b>91.72</b>.
 
 CMG (Chipotle Mexican Grill Inc.)
-On 03-14-2024 the closing price is <b>2748.52</b>.
+On 03-19-2024 the closing price is <b>2792.85</b>.
 
 YUM (Yum! Brands Inc.)
-On 03-14-2024 the closing price is <b>137.16</b>.
+On 03-19-2024 the closing price is <b>137.21</b>.
 
 DRI (Darden Restaurants Inc.)
-On 03-14-2024 the closing price is <b>171.77</b>.
+On 03-19-2024 the closing price is <b>173.65</b>.
 
 
 ### Question 3: What is the minimum closing price for each stock? What trading day did this occur on?
 
->note: The minimum closing price in comparrison to price on 03-14-2024 shows the price change and how it provided the perfect buying opportunity.
+>note: The minimum closing price in comparrison to price on 03-19-2024 shows the price change and how it provided the perfect buying opportunity.
 
 ![mcd_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/d4d6aa6c-a2e3-485e-b89f-1a59dd59bb50)
 
 
 MCD (McDonald's Corportation)
 - The minumum closing price is <b>246.19</b> which took place on 10-12-2023
-- In comparrison the closing price was <b>281.73</b> on 03-14-2024
+- In comparrison the closing price was <b>283.15</b> on 03-19-2024
 
 ![sbux_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/f9d2713f-59e4-4701-86b7-6e35b04413e4)
 
 
 SBUX (Starbucks Corporation)
 - The minumum closing price is <b>89.48</b> which took place on 10-03-2023
-- In comparrison the closing price was <b>91.66</b> on 03-14-2024 
+- In comparrison the closing price is <b>91.72</b> on 03-19-2024 
 
 ![cmg_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/9ed46c22-0090-4d01-b1ba-257589304e67)
 
 CMG (Chipotle Mexican Grill Inc.)
 - The minumum closing price is <b>1610.23</b> which took place on 03-20-2023
-- In comparrison the closing price was <b>2748.52</b> on 03-14-2024 
+- In comparrison the closing price is <b>2792.85</b> on 03-19-2024 
 
 ![yum_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/bf948661-3ce1-47c1-8369-e3cc0fb7a72b)
 
 YUM (Yum! Brands Inc.)
 - The minumum closing price is <b>116.25</b> which took place on 10-12-2023
-- In comparrison the closing price was <b>137.16</b> on 03-14-2024 
+- In comparrison the closing price is <b>137.21</b> on 03-19-2024 
 
 ![dri_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/317e3f73-71fc-4a19-9703-a21fe071ea75)
 
 DRI (Darden Restaurants Inc.)
 - The minumum closing price is <b>134</b> which took place on 10-13-2023
-- In comparrison the closing price was <b>171.77</b> on 03-14-2024 
+- In comparrison the closing price is <b>173.65</b> on 03-19-2024 
 
 ### Question 4: Regarding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
 
 ![time_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/e44f2a9d-5c81-4e33-84cb-1cd28d1f0cab)
 The above plot displays the time series of the closing prices for each stock (MCD, SBUX, CMG, YUM, DRI) over a one year observed period. 
+Let us next take a closer look at each stock individually so we can make an accurate reading.
+
+![MCD_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/e2d145c4-b398-41cc-8cb5-844e0834db94)
+
+![SBUX_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/863fe80e-a654-40f8-8f41-5f6f50b1f6d3)
+
+![CMG_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/3da6923f-8be8-4b22-9d9e-0ed9072b2481)
+
+![YUM_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/33a59301-589f-4901-8faa-a2423fd9c906)
+
+![DRI_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/d1fd2466-16dd-4dd2-b044-892f95c858a0)
+
+
+
 
 - Trend: Each stock shows its unique trend over time. For instance, AAPL and MSFT exhibit a general upward trend in this period.
 - Volatility: There is noticeable volatility in the stock prices. For example, NFLX shows more pronounced fluctuations compared to others.
@@ -209,8 +222,9 @@ So, AAPL shows the lowest risk combined with a positive average daily return, su
 MSFT shows moderate risk with the highest average daily return, suggesting a potentially more rewarding investment, although with higher volatility compared to AAPL. NFLX exhibits the highest risk and a negative average daily return, indicating it was the most volatile and least rewarding investment among these stocks over the analyzed period.
 
 ### Question 9: Regarding the performance of each stock in comparisson to the S&P 500, what are their beta values and what does that number mean in comparison to the market movements?
+![Beta](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/3195d4e6-c3b1-4293-8646-36a72ae45edc)
 
-![beta](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/c986655b-d555-4cfb-b327-a778587e5f6b)
+
 
 In the above code, we are assessing how sensitive Apple and Google stocks are to overall market movements, providing insights into their relative volatility and risk about the broader U.S. stock market represented by the S&P 500 index.
 
@@ -232,135 +246,3 @@ A beta greater than 1 suggests that a stock tends to be more volatile than the m
 
 
 
-# Coffee Sales Analysis                                                ☕
-
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Requirements](#requirements)
-- [Data Sources](#data-sources)
-- [Tools](#tools)
-- [Data Pipeline](#data-pipeline)
-- [Limitations](#limitations)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Summary of Findings](#summary-of-findings)
-- [Results from Findings](#results-from-findings)
-- [Recommendations](#recommendations)
-
-
-![Final_D](https://github.com/KHard2Bme/Coffee_Sales_Dashboard_Excel/assets/146769989/b72ce4bf-cc41-4e5e-b7d2-d4fbcd0458d4)
-
-
-### Project Overview
----
-
-This data analysis project aims to provide insights into the sales performance of an e-commerce company over the past 4 years. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
-
-
-
-
-
-### Requirements
----
-
-
-
-### Data Sources
----
-
-Sales Data: The primary dataset used for this analysis is the "coffeeOrdersData.xlsx" file, containing detailed information about each sale made by a ficticious company.
-
-
-
-
-
-
-### Tools
----
-
-- Excel - Data Cleaning, processing, analysis, report and dashboard creation.
-
-
-
-      
-## Data Pipeline
----
-
-### 1. Data Cleaning
-
-Data loading and inspection:
-- Checking column header and rows for correct spelling, null values, extra spaces, datatypes and duplicates.
-
-### 2. Data Processing
- 
- Creation of customized columns utilizing the following formulas:
--  XLOOKUP(), IF(), IFERROR(),PROPER(), INDEX() & MATCH()
-
-
-### 3. Data Analysis
- 
-
-Creation of Pivot tables, basic and customized charts
-
-### 4. Report/Dashboard
-
-Building of the dashboard as well as adding charts, timeline and slicers 
- 
-
-### Limitations
----
-
-
-
-
-### Exploratory Data Analysis
----
-Questions the client has that can now be answered;
-
-1.What is the total sales, number of transactions, average sales, minimum and maximum sales for coffee in all regions from 2019 through 2022? by year? by country?
-
-2. What is the overall sales trend for most ordered coffee type by country?
- 
-3. In the United States, what quarter had the most sales from 2019 to 2022?
- 
-4. In the United States, what month had the most sales from 2019 to 2022?
-
-5. What country had the least amount of sales?
- 
-6. In the United Kingdom, what year and month had the highest sales; loyalty card holders, coffee type,roast type?
-. 
-7. In the United Kingdom, What month had the lowest sales; loyalty card holders, coffee type,roast type?
-
-8.  How many customers in United Kingdom have Loyalty cards? Total sales? Purchased 0.2kg, 0.5kg, 1kg or 2.5kg size coffee?
-
-9. Regarding total sales in all regions, is there any benefit in being a Loyalty Card holder vs. not?
-
-
-## Summary of Findings
- 
-1.
-   
-### Results from Findings
-
-The analysis results are summarized as follows:
-
-1.  The United States makes up 96% of total sales within all regions, Ireland providing 3% followed by United Kingdom with a mere 1%
-  
-2.  With majority of sales coming from the United States the largest demand is for coffee type Excelsa, roast Light, and coffee size 2.5kg.
-
-3.  Customers without loyalty cards have a slightly higher total sales and transaction count overall compared to those with a card. There is no special services applied to the loyalty card; for example, product discounts, accruel of points the more you spend, BOGO sales and possibly more delivery times ( overnight/next day ).
- 
-#### [Overall sales with no card is $24,216 with 521 transactions while those with a card is $20,918 with 479 transactions]
-
-
-
-### Recommendations
-
-Based on the analysis, we recommend the following actions:
-- In order for the company to have more sales, special features and services need to be applied to the loyalty card.
-
-- With a newly revamped loyalty card existing users would take advantage of the incentives and those without would be highly interested in applying for card; subscription and extra features fee can be applied.
-
-- There needs to be more sales taking place within Ireland and the United Kingdom.
-
-- A complete dataset would be beneficial in order to accertain the present health of the company and predict future trends; missing 683 days of information and the year 2022 missing 4 months of data.
