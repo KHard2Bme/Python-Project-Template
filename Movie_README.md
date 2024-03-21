@@ -170,20 +170,44 @@ Let us next take a closer look at each stock individually so we can make an accu
 
 ![MCD_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/e2d145c4-b398-41cc-8cb5-844e0834db94)
 
+MCD (McDonald's Corportation):
+- Q1 through Q22023 shows the stock price moving in an upward sustained trend, then mid Q2 the price follows a sporadic sideways movement until begining of Q32023 where there is a trend reversal and the price follows a bearish market run down to the lowest being <b>$246.19</b> on <b>10-12-2023</b>. There is a sudden trend reversal which continues upward into Q12024 and levels off into another sporadic sideways movement.
+
+
 ![SBUX_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/863fe80e-a654-40f8-8f41-5f6f50b1f6d3)
+
+SBUX (Starbucks Corporation):
+- Q1 through Q22023 shows the stock price gradually moving in an upward fluctuating trend, then mid Q2 there is a major trend reversal where the price follows a bearish market run and experiences significant sideways movement until the lowest price is reached, that being <b>$89.48</b> on <b>10-03-2023</b>. There is a sudden trend reversal which continues slightly upward into Q42023, it continues until end of Q4 and the trend changes again fluctuating downward into a sideways movement within Q12024.
+
 
 ![CMG_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/3da6923f-8be8-4b22-9d9e-0ed9072b2481)
 
+CMG (Chipotle Mexican Grill Inc.):
+- Q12023 starts out at the lowest closing price of the year being <b>$1610.23</b> on <b>3-20-2023</b>. The stock gradually follows an upward trend until Q22023 and soon experiences significant sideways movement until mid Q32023. The trend reverses and there is a sporadic down trend until Q42023, then a sudden trend reversal  follows with a bullish market run into Q12024.
+
 ![YUM_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/33a59301-589f-4901-8faa-a2423fd9c906)
+
+YUM (Yum! Brands Inc.):
+- Q1 through Q22023 shows the stock price gradually moving in an upward sustained trend until mid Q2, there is a sudden trend reversal where the price follows a very volatile downward trend to the lowest closing price being <b>$116.25</b> on <b>10-12-2023</b>. There is a another sudden trend reversal which shows continued fluctuation upward into Q12024.
+
 
 ![DRI_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/d1fd2466-16dd-4dd2-b044-892f95c858a0)
 
+DRI (Darden Restaurants Inc.):
+- Q1 through Q22023 shows the stock price following a downward sideways movement until end of Q2 were there is a trend reversal and the price follows a very volatile upward trend unti mid Q32023. There is a trend reversal and the closing price follows a bearish market run until hitting lowest price, that being <b>$134</b> on <b>10-13-2023</b>. There is another trend reversal which takes place and steadily climbs upward into Q12024. 
 
+ ### Comparrison:
 
+ <b>Trend:</b> 
+ - MCD, YUM and DRI all experience their lowest closing prices in Q42023 (10-12-2023 for MCD and YUM, 10-13-2023 for DRI).
+ - Each stock experienced a trend reversal in Q42023 which followed a sporadic upward trend into Q12024 except SBUX, this stock had another trend reversal end of Q42023       and closing prices fluctuated downward into a sideways movement within Q12024.
 
-- Trend: Each stock shows its unique trend over time. For instance, AAPL and MSFT exhibit a general upward trend in this period.
-- Volatility: There is noticeable volatility in the stock prices. For example, NFLX shows more pronounced fluctuations compared to others.
-- Comparative Performance: When comparing the stocks, MSFT and NFLX generally trade at higher price levels than AAPL and GOOG in this dataset.
+ <b>Volatility:</b>
+- There is noticeable volatility in each of the stock prices. For example, CMG shows more pronounced fluctuations compared to all the others.
+
+ <b>Comparative Performance:</b>
+- When comparing the stocks DRI, YUM and SBUX generally trade at price levels close in range as opposed to MCD which is a bit higher in price. CMG trades at a substancially higher price than all the other stocks in this dataset.
+
 
 
 ### Question 5: The volatility of the closing price gives us insight into how much the stock price fluctuates over a one year period. How does each stock rank in terms of volatility and in comparrison with each other?
