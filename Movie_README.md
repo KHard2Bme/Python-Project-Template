@@ -214,11 +214,14 @@ DRI (Darden Restaurants Inc.):
 
 ![volatility_analysis](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/1cf03a18-aab0-49ff-b53e-1234f1c665e5)
 
-NFLX: Highest volatility with a standard deviation of approximately 18.55.
-MSFT: Next highest, with a standard deviation of around 17.68.
-AAPL: Lower volatility compared to NFLX and MSFT, with a standard deviation of about 7.36.
-GOOG: The least volatile in this set, with a standard deviation of approximately 6.28.
-It indicates that NFLX and MSFT stocks were more prone to price fluctuations during this period compared to AAPL and GOOG.
+CMG: Highest volatility with a standard deviation of approximately 275.90.   
+MCD: Next highest, with a standard deviation of around 12.47.
+DRI: Volatility rating right after MCD, with a standard deviation of around 9.12.
+YUM: Slight volatility compared to others, with a standard deviation of about 5.61.
+SBUX: The least volatile in this set, with a standard deviation of approximately 5.21.
+
+In summary, CMG stock is more prone to price fluctuations during this period than compared to MCD, DRI, YUM and SBUX.
+YUM and SBUX closing prices are relatively steady, while DRI and MCD shows a bit more price changes.
 
 ### Question 6: The Correlation Analysis helps us understand how the stock prices of each company are related. What are the findings and what does this tell us?
 ![corr_analysis](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/95c86d97-1d8e-4cc7-8b8f-e1329dfafb00)
@@ -248,7 +251,8 @@ So, AAPL shows the lowest risk combined with a positive average daily return, su
 MSFT shows moderate risk with the highest average daily return, suggesting a potentially more rewarding investment, although with higher volatility compared to AAPL. NFLX exhibits the highest risk and a negative average daily return, indicating it was the most volatile and least rewarding investment among these stocks over the analyzed period.
 
 ### Question 9: Regarding the performance of each stock in comparisson to the S&P 500, what are their beta values and what does that number mean in comparison to the market movements?
-![Beta](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/3195d4e6-c3b1-4293-8646-36a72ae45edc)
+
+![beta](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0b681c7c-2d6c-412c-8d90-3776d272f152)
 
 
 
