@@ -134,7 +134,7 @@ On 03-19-2024 the closing price is <b>173.65</b>.
 
 MCD (McDonald's Corportation)
 - The minumum closing price is <b>246.19</b> which took place on 10-12-2023
-- In comparrison the closing price was <b>283.15</b> on 03-19-2024
+- In comparrison the closing price is <b>283.15</b> on 03-19-2024
 
 ![sbux_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/f9d2713f-59e4-4701-86b7-6e35b04413e4)
 
