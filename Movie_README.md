@@ -15,7 +15,7 @@
 ---
 We will be performing a <b>quantitative analysis</b> of five well known stocks and answer questions that can assist in the selection process of a wonderful stock; we will assume personal investment style is risk averse.
 
->note: Risk-averse investors prioritize the safety of principal over the possibility of a higher return on their money. They prefer liquid investments. 
+>note: Risk-averse investors prioritize the safety of principal over the possibility of a higher return on their money. 
 
 The below selected stocks fall within the Consumer Cyclical sector, restaurants industry;
 - <b>MCD</b>    McDonalds
@@ -171,30 +171,27 @@ Let us next take a closer look at each stock individually so we can make an accu
 ![MCD_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/e2d145c4-b398-41cc-8cb5-844e0834db94)
 
 MCD (McDonald's Corportation):
-- Q1 through Q22023 shows the stock price moving in an upward sustained trend, then mid Q2 the price follows a sporadic sideways movement until begining of Q32023 where there is a trend reversal and the price follows a bearish market run down to the lowest being <b>$246.19</b> on <b>10-12-2023</b>. There is a sudden trend reversal which continues upward into Q12024 and levels off into another sporadic sideways movement.
-
+- Q1 through Q22023 shows the stock price moving in an upward trend, then mid Q2 the price follows a sporadic sideways movement until begining of Q32023 where there is a trend reversal and the closing price follows a downward trend to the lowest price being <b>$246.19</b> on <b>10-12-2023</b>. There is a sudden trend reversal which continues upward into Q12024 and levels off into another sporadic sideways movement.
 
 ![SBUX_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/863fe80e-a654-40f8-8f41-5f6f50b1f6d3)
 
 SBUX (Starbucks Corporation):
-- Q1 through Q22023 shows the stock price gradually moving in an upward fluctuating trend, then mid Q2 there is a major trend reversal where the price follows a bearish market run and experiences significant sideways movement until the lowest price is reached, that being <b>$89.48</b> on <b>10-03-2023</b>. There is a sudden trend reversal which continues slightly upward into Q42023, it continues until end of Q4 and the trend changes again fluctuating downward into a sideways movement within Q12024.
-
+- Q1 through Q22023 shows the stock price gradually moving in an upward fluctuating trend until mid Q2 where there is a major trend reversal and the price follows a bearish market run with significant sideways movement until the lowest price is reached, that being <b>$89.48</b> on <b>10-03-2023</b>. There is a sudden trend reversal which continues slightly upward into Q42023, it continues until end of Q4 and the trend changes once more fluctuating downward into a sideways movement within Q12024.
 
 ![CMG_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/3da6923f-8be8-4b22-9d9e-0ed9072b2481)
 
 CMG (Chipotle Mexican Grill Inc.):
-- Q12023 starts out at the lowest closing price of the year being <b>$1610.23</b> on <b>3-20-2023</b>. The stock gradually follows an upward trend until Q22023 and soon experiences significant sideways movement until mid Q32023. The trend reverses and there is a sporadic down trend until Q42023, then a sudden trend reversal  follows with a bullish market run into Q12024.
+- Q12023 starts out at the lowest closing price of the year being <b>$1610.23</b> on <b>3-20-2023</b>. The stock gradually follows an upward trend until Q22023 and soon experiences significant sideways movement until mid Q32023. The trend reverses and there is a sporadic down trend until Q42023, a sudden trend reversal follows with a gradual upward trend into Q12024.
 
 ![YUM_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/33a59301-589f-4901-8faa-a2423fd9c906)
 
 YUM (Yum! Brands Inc.):
-- Q1 through Q22023 shows the stock price gradually moving in an upward sustained trend until mid Q2, there is a sudden trend reversal where the price follows a very volatile downward trend to the lowest closing price being <b>$116.25</b> on <b>10-12-2023</b>. There is a another sudden trend reversal which shows continued fluctuation upward into Q12024.
-
+- Q1 through Q22023 shows the stock price gradually moving in an upward trend until mid Q2, there is a sudden trend reversal where price fluctuates in a downward trend to the lowest closing price being <b>$116.25</b> on <b>10-12-2023</b>. There is a another sudden trend reversal which shows continued fluctuation upward into Q12024.
 
 ![DRI_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/d1fd2466-16dd-4dd2-b044-892f95c858a0)
 
 DRI (Darden Restaurants Inc.):
-- Q1 through Q22023 shows the stock price following a downward sideways movement until end of Q2 were there is a trend reversal and the price follows a very volatile upward trend unti mid Q32023. There is a trend reversal and the closing price follows a bearish market run until hitting lowest price, that being <b>$134</b> on <b>10-13-2023</b>. There is another trend reversal which takes place and steadily climbs upward into Q12024. 
+- Q1 through Q22023 shows the stock price following a downward sideways movement until end of Q2, were there is a trend reversal and the price fluctuates upward until mid Q32023. There is a trend reversal and the closing price follows a volatile downward trend until hitting lowest price, that being <b>$134</b> on <b>10-13-2023</b>. There is another trend reversal which takes place and the price steadily climbs upward into Q12024. 
 
  ### Comparrison:
 
@@ -206,8 +203,7 @@ DRI (Darden Restaurants Inc.):
 - There is noticeable volatility in each of the stock prices. For example, CMG shows more pronounced fluctuations compared to all the others.
 
  <b>Comparative Performance:</b>
-- When comparing the stocks DRI, YUM and SBUX which generally trade at price levels close in range as opposed to MCD which is a bit higher in price. CMG trades at a substancially higher price than all the other stocks in this dataset.
-
+- When comparing the stocks, DRI, YUM and SBUX generally trade at price levels close in range as opposed to MCD which is a bit higher in price. CMG trades at a substancially higher price than all the other stocks in this dataset.
 
 
 ### Question 5: The volatility of the closing price gives us insight into how much the stock price fluctuates over a one year period. How does each stock rank in terms of volatility and in comparrison with each other?
@@ -237,7 +233,7 @@ YUM and SBUX closing prices are relatively steady, while DRI and MCD shows a bit
 
 CMG: The highest positive change of approximately 79.05%.<br>
 DRI: Exhibited a positive change of approximately 8.07%.It indicates a solid performance.<br>      
-MCD: Exhibited a positive change of approximately 5.85%.It also indicates a solid performance, though slightly lower than DRI.<br>
+MCD: Exhibited a positive change of approximately 5.85%.It also indicates a solid performance, though slightly lower than DRI and YUM.<br>
 SBUX: Experienced the most significant negative change, at approximately -7.53%. It suggests a notable decrease in its stock price during a one year period.<br>
 YUM: Exhibited a positive change of approximately 7.00%. It indicates a solid performance, slightly lower than DRI but higher than MCD.<br>
 
@@ -253,9 +249,12 @@ YUM: Exhibited a positive change of approximately 7.00%. It indicates a solid pe
 
 ### Question 9: Regarding the performance of each stock in comparisson to the S&P 500, what are their beta values and what does that number mean in comparison to the market movements?
 
+>note: A beta greater than 1 suggests that a stock tends to be more volatile than the market.<br>
+
 ![beta](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0b681c7c-2d6c-412c-8d90-3776d272f152)
 
 In the above code, we are assessing how sensitive McDonalds, Starbucks, Chipotle, Yum and Darden stocks are to overall market movements, providing insights into their relative volatility and risk about the broader U.S. stock market represented by the S&P 500 index.
+
 
 The beta value for McDonalds is approximately -0.02210,-2.21% more volatile or sensitive to market movements.<br>
 The beta value for Starbucks is approximately 0.06466, 6.47% more volatile or sensitive to market movements.<br>
@@ -263,15 +262,29 @@ The beta value for Chipotle is approximatley 0.01268, 1.27% more volatile or sen
 The beta value for Yum is approximatly -0.02636, -2.64% more volatile or sensitive to maket movements.<br>
 The beta value for Darden is 0.07123, 7.12% more volatile or sensitive to market movements.<br>
 
->note: A beta greater than 1 suggests that a stock tends to be more volatile than the market.<br>
-
+## Summary:
 - Starbucks, Chipotle and Darden all have beta values less than 1, indicating that they are expected to be less volatile and sensitive to market movements.
-- McDonalds and Yum both have negative values which suggest they move in opposite direction to overall market movements.<br>
+- McDonalds and Yum both have negative values which suggest they move in opposite direction to overall market movements. Although rare, there are some stocks in the market that have a negative beta<br>
 
-Investors should consider this information when making investment decisions, as higher-beta stocks can provide greater potential for returns but also carry a higher level of risk.<br>
-   
 # Results from Findings
 ---
+As a reminder, I will be making a determination of a wonderful stock to pick from the viewpoint of an investor who is risk averse.
+
+ After performing a Quatitative Analysis of five well known stocks in the restaurant industry; (MCD) McDonalds, 
+(SBUX) Starbucks, (CMG) Chipotle Mexican Grill, (YUM) Yum! Brands and (DRI) Darden Restaurants, within a one year time period of 3-20-2023 through 3-19-2024, the data shows that <b>(DRI) Darden Restaurants</b> would be the best choice.
+
+
+  Factors which helped in the decision process were outcomes from the below statistical concepts:
+ 
+ - <b>Comparative Analysis:</b>    Out of all five stocks we looked at SBUX experienced the most significant negative change, at approximately -7.53%.
+  This left us with four stocks to analyze.
+
+ - <b>Risk-Return Trade-off Analysis:</b>  CMG exhibited the highest risk out of all the stocks though having the highest average daily return.
+  We would have to remove this stock from the lineup, leaving us with three.
+
+ - <b>Performance against the S&P500:</b>  MCD and Yum both have negative values which suggest they move in opposite direction to overall market movements.
+    For some, both stocks might be good because they act as a hedge against market downturns and can help reduce portfollio risks. For the average investor looking to make daily returns this might be a market risk. 
+    This leaves us with DRI as the wonderful stock to purchase; beta value is 0.07123 which is far below a beta of 1.
 
 
 
