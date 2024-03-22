@@ -62,7 +62,7 @@ We will also compare the performance of the selected stocks against relevant ben
 
 In order to make some good predictions I chose to collect one years worth of stock price data for McDonalds, Starbucks, Chipotle,Yum Brands and Darden restaurants.<br>
 
-For this task, I used the Yahoo finance API (yfinance) to collect real-time stock market data from 03-13-2023 through 03-14-2024.<br>
+For this task, I used the Yahoo finance API (yfinance) to collect real-time stock market data from 03-20-2023 through 03-19-2024.<br>
 
 
 
