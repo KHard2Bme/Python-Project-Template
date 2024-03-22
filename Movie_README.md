@@ -9,7 +9,7 @@
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Summary of Findings](#summary-of-findings)
 - [Results from Findings](#results-from-findings)
-- [Recommendations](#recommendations)
+
 
 # Project Overview
 ---
@@ -206,7 +206,7 @@ DRI (Darden Restaurants Inc.):
 - There is noticeable volatility in each of the stock prices. For example, CMG shows more pronounced fluctuations compared to all the others.
 
  <b>Comparative Performance:</b>
-- When comparing the stocks DRI, YUM and SBUX generally trade at price levels close in range as opposed to MCD which is a bit higher in price. CMG trades at a substancially higher price than all the other stocks in this dataset.
+- When comparing the stocks DRI, YUM and SBUX which generally trade at price levels close in range as opposed to MCD which is a bit higher in price. CMG trades at a substancially higher price than all the other stocks in this dataset.
 
 
 
@@ -214,11 +214,11 @@ DRI (Darden Restaurants Inc.):
 
 ![volatility_analysis](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/1cf03a18-aab0-49ff-b53e-1234f1c665e5)
 
-CMG: Highest volatility with a standard deviation of approximately 275.90.   
-MCD: Next highest, with a standard deviation of around 12.47.
-DRI: Volatility rating right after MCD, with a standard deviation of around 9.12.
-YUM: Slight volatility compared to others, with a standard deviation of about 5.61.
-SBUX: The least volatile in this set, with a standard deviation of approximately 5.21.
+CMG: Highest volatility with a standard deviation of approximately 275.90.<br> 
+MCD: Next highest, with a standard deviation of around 12.47.<br>
+DRI: Volatility rating right after MCD, with a standard deviation of around 9.12.<br>
+YUM: Slight volatility compared to others, with a standard deviation of about 5.61.<br>
+SBUX: The least volatile in this set, with a standard deviation of approximately 5.21.<br>
 
 In summary, CMG stock is more prone to price fluctuations during this period than compared to MCD, DRI, YUM and SBUX.
 YUM and SBUX closing prices are relatively steady, while DRI and MCD shows a bit more price changes.
@@ -226,46 +226,51 @@ YUM and SBUX closing prices are relatively steady, while DRI and MCD shows a bit
 ### Question 6: The Correlation Analysis helps us understand how the stock prices of each company are related. What are the findings and what does this tell us?
 ![corr_analysis](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/95c86d97-1d8e-4cc7-8b8f-e1329dfafb00)
 
- Correlation Analysis to understand how the stock prices of these companies are related to each other:
-
-From the heatmap, we can observe that there are varying degrees of positive correlations between the stock prices, with some pairs showing stronger correlations than others. For instance, AAPL and MSFT seem to have a relatively higher positive correlation.
-
+ From the heatmap, we can observe that there are varying degrees of positive and negative correlations between the stock prices, with some pairs showing stronger correlations than others.
+- MCD and YUM have a relatively higher positive correlation than any other stocks (0.82).
+- This makes perfect sense since both have very similar closing price trends and patterns over the past year 
 
 
 ### Question 7: With Comparative Analysis we can compare the performance of different stocks based on their returns over a one year period. What is the percentage change in closing prices of each stock and how do they compare with each other?
 ![compare_anaysis](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/14ef01ee-fea1-42a6-a16e-3d32125e83d4)
 
-The bar chart and the accompanying data show the percentage change in the closing prices of the stocks from the start to the end of the observed period:
 
-MSFT: The highest positive change of approximately 16.10%.
-AAPL: Exhibited a positive change of approximately 12.23%. It indicates a solid performance, though slightly lower than MSFT’s.
-GOOG: Showed a slight negative change of about -1.69%. It indicates a minor decline in its stock price over the observed period.
-NFLX: Experienced the most significant negative change, at approximately -11.07%. It suggests a notable decrease in its stock price during the period.
+CMG: The highest positive change of approximately 79.05%.<br>
+DRI: Exhibited a positive change of approximately 8.07%.It indicates a solid performance.<br>      
+MCD: Exhibited a positive change of approximately 5.85%.It also indicates a solid performance, though slightly lower than DRI.<br>
+SBUX: Experienced the most significant negative change, at approximately -7.53%. It suggests a notable decrease in its stock price during a one year period.<br>
+YUM: Exhibited a positive change of approximately 7.00%. It indicates a solid performance, slightly lower than DRI but higher than MCD.<br>
 
 
 ### Question 8: With the Risk-Return Trade-off Analysis stocks with higher average returns and lower risk are generally more desirable, but investment decisions often depend on the investor’s risk tolerance. What is the risk associated with each stock and how do they compare with each other?
 ![daily_risk](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/71e3ee4c-bbf7-4083-aaef-d5e66f487852)
 
-So, AAPL shows the lowest risk combined with a positive average daily return, suggesting a more stable investment with consistent returns. GOOG has higher volatility than AAPL and, on average, a slightly negative daily return, indicating a riskier and less rewarding investment during this period.
-
-MSFT shows moderate risk with the highest average daily return, suggesting a potentially more rewarding investment, although with higher volatility compared to AAPL. NFLX exhibits the highest risk and a negative average daily return, indicating it was the most volatile and least rewarding investment among these stocks over the analyzed period.
+- MCD: shows the lowest risk combined with a positive average daily return, suggesting a more stable investment with consistent returns.
+- YUM: has a slightly higher volatility and daily returns than MCD, showing slightly more of a reward in investment.
+- DRI: shows moderate risk with the second highest average daily return, suggesting a potentially more rewarding investment, although with higher volatility compared to MCD and YUM.
+- SBUX: exhibits the second highest risk and has a negative average daily return, indicating a riskier and less rewarding investment during this period.
+- CMG: exhibits the highest risk but has the highest average daily return, indicating it was the most volatile but provided the most rewarding investment among these stocks over the analyzed period.
 
 ### Question 9: Regarding the performance of each stock in comparisson to the S&P 500, what are their beta values and what does that number mean in comparison to the market movements?
 
 ![beta](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0b681c7c-2d6c-412c-8d90-3776d272f152)
 
+In the above code, we are assessing how sensitive McDonalds, Starbucks, Chipotle, Yum and Darden stocks are to overall market movements, providing insights into their relative volatility and risk about the broader U.S. stock market represented by the S&P 500 index.
 
+The beta value for McDonalds is approximately -0.02210,-2.21% more volatile or sensitive to market movements.<br>
+The beta value for Starbucks is approximately 0.06466, 6.47% more volatile or sensitive to market movements.<br>
+The beta value for Chipotle is approximatley 0.01268, 1.27% more volatile or sensitive to market movements.<br>
+The beta value for Yum is approximatly -0.02636, -2.64% more volatile or sensitive to maket movements.<br>
+The beta value for Darden is 0.07123, 7.12% more volatile or sensitive to market movements.<br>
 
-In the above code, we are assessing how sensitive Apple and Google stocks are to overall market movements, providing insights into their relative volatility and risk about the broader U.S. stock market represented by the S&P 500 index.
+>note: A beta greater than 1 suggests that a stock tends to be more volatile than the market.<br>
 
-In the above output, the beta value for Apple is approximately 1.2257. This beta value suggests that Apple’s stock is estimated to be approximately 22.57% more volatile or sensitive to market movements (as represented by the S&P 500 index) compared to the overall market. The beta value for Google is approximately 1.5303. This beta value suggests that Google’s stock is estimated to be approximately 53.03% more volatile or sensitive to market movements.
+- Starbucks, Chipotle and Darden all have beta values less than 1, indicating that they are expected to be less volatile and sensitive to market movements.
+- McDonalds and Yum both have negative values which suggest they move in opposite direction to overall market movements.<br>
 
-A beta greater than 1 suggests that a stock tends to be more volatile than the market. In this case, both Apple and Google have beta values greater than 1, indicating that they are expected to be more volatile and sensitive to market movements. Google’s higher beta value (1.5303) compared to Apple’s (1.2257) suggests that Google’s stock is estimated to have a higher degree of market sensitivity or risk compared to Apple. Investors should consider this information when making investment decisions, as higher-beta stocks can provide greater potential for returns but also carry a higher level of risk.
+Investors should consider this information when making investment decisions, as higher-beta stocks can provide greater potential for returns but also carry a higher level of risk.<br>
    
 # Results from Findings
----
-
-# Recommendations
 ---
 
 
