@@ -20,10 +20,7 @@ I will use data analysis techniques to determine whether the sentiments in these
 I will later perform Exploratory Data Analysis on the dataset to answer a few questions derived along the way.</b>
 
 
- To perform a quantitative analysis we will explore the below statistical concepts: 
-
-  
->note: Statistical concepts will be shown in detail within Jupyter notebook.
+ >note: The App Review Sentiment Analysis and EDA steps will be shown in detail within the Jupyter Notebook.
 
 
 # Python Libraries Used
