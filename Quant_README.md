@@ -34,9 +34,9 @@ I will later perform Exploratory Data Analysis on the dataset to answer a few qu
 # Data Sources
 ---
 
-In order to make some good predictions I chose to collect one years worth of stock price data for McDonalds, Starbucks, Chipotle,Yum Brands and Darden restaurants.<br>
+The primary dataset used for this analysis is the "WAZE_REVIEWS.csv" file obtained from Kaggle which contains real data.<br>
 
-For this task, I used the Yahoo finance API (yfinance) to collect real-time stock market data from 03-20-2023 through 03-19-2024.<br>
+The dataset covers user reviews about the Waze app during years 2009 through 2023.<br>
 
 
 
