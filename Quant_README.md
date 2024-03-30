@@ -1,4 +1,4 @@
-# A Quantitative Analysis of the Stock Market  💻
+# Waze Review Sentiment Analysis 🚗 🚙
 ---
 
 ## Table of Contents
@@ -13,48 +13,22 @@
 
 # Project Overview
 ---
-We will be performing a <b>quantitative analysis</b> of five well known stocks and answer questions that can assist in the selection process of a wonderful stock; we will assume personal investment style is risk averse.
+I will be performing an App Review Sentiment Analysis on the Waze mobile app dataset so as to evaluate and understand the sentiments expressed in user reviews over a 15 year span; 2009 through 2023.</b> 
 
->note: Risk-averse investors prioritize the safety of principal over the possibility of a higher return on their money. 
+I will use data analysis techniques to determine whether the sentiments in these reviews are positive, negative, or neutral.</b>
 
-The below selected stocks fall within the Consumer Cyclical sector, restaurants industry;
-- <b>MCD</b>    McDonalds
-- <b>SBUX</b>   Starbucks
-- <b>CMG</b>    Chipotle Mexican Grill
-- <b>YUM</b>    Yum! Brands
-- <b>DRI</b>    Darden Restaurants
-
+I will later perform Exploratory Data Analysis on the dataset to answer a few questions derived along the way.</b>
 
 
  To perform a quantitative analysis we will explore the below statistical concepts: 
 
   
- <p>
-  
-<b> 1.Descriptive Statistics:</b>     Summary statistics (mean, median, standard deviation, etc.) for each stock.<br>
-  
-<b> 2.Time Series Analysis:</b>         Trends and patterns over time, especially for closing prices.<br>
-
-<b> 3.Volatility Analysis:</b>          How much the stock price fluctuates over a period.<br>
-
-<b> 4.Correlation Analysis:</b>         How stock prices of different companies are related to each other.<br>
-
-<b> 5.Comparative Analysis:</b>         Comparing the performance of different stocks.<br>
-
-<b> 6.Risk-Return Trade-off Analysis:</b>  Analyzing the balance between the potential risks and rewards of different stocks,                                       aiding in portfolio management.<br>
-
- </p>
-    
-We will also compare the performance of the selected stocks against relevant benchmarks, such as market indices like the S&P 500.<br>  
-
-
-
 >note: Statistical concepts will be shown in detail within Jupyter notebook.
 
 
 # Python Libraries Used
 ---
-*pandas, numpy, seaborn, matplotlip, datetime, yfinance*
+*pandas, numpy, seaborn, matplotlip, datetime
 
 
 # Data Sources
