@@ -17,7 +17,7 @@ I will be performing an App Review Sentiment Analysis on the Waze mobile app dat
 
 I will use data analysis techniques to determine whether the sentiments in these reviews are positive, negative, or neutral.</b>
 
-I will later perform Exploratory Data Analysis on the dataset to answer a few questions derived along the way.</b>
+I will also perform Exploratory Data Analysis on the dataset to answer a few questions derived along the way.</b>
 
 
  >note: The App Review Sentiment Analysis and EDA steps will be shown in detail within the Jupyter Notebook.
@@ -41,198 +41,104 @@ The dataset covers user reviews about the Waze app during years 2009 through 202
 ---
 In my analysis I explore and answer the following questions:
 
-1. What is the average closing price for each stock, standard deviation and how do these stocks compare?
-2. What is the closing price for each stock as of 03-19-2024?
-3. What is the minimum closing price for each stock? What trading day did this occur on?
-4. Regarding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
-5. The volatility of the closing price gives us insight into how much the stock price fluctuates over a one year period. How does each stock rank in terms of volatility and in comparrison with each other?
-6. The Correlation Analysis helps us understand how the stock prices of each company are related. What are the findings and what does this tell us?
-7. With Comparative Analysis we can compare the performance of different stocks based on their returns over a one year period. What is the percentage change in closing prices of each stock and how do they compare with each other?
-8. With the Risk-Return Trade-off Analysis stocks with higher average returns and lower risk are generally more desirable, but investment decisions often depend on the investor’s risk tolerance. What is the risk associated with each stock and how do they compare with each other?
-9. Regarding the performance of each stock in comparisson to the S&P 500, what are their beta values and what does that number mean in comparison to the market movements?
+1. From the distribution of ratings chart, which rating has the most reviews? Least reviews?
+2. From the distribution of sentiments chart, What are the number of reviews for each sentiment?
+3. Based off the findings from the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1. How many reviews make up this sentiment?
+4. Based off the findings from the distribution of author apps versions chart, which version has the most reviews and which has the least?
+5. Based off the findings from the sentiment distribution across apps chart, version 4.73.0.3 has more negative sentiments than version 3.9.4.0. How many negative reviews are in this sentiment? How many negative reviews are in 3.9.4.0?
+6. Based off the findings from the distribution of years for reviews chart, which three years contained the most reviews and which year had the least amount of reviews overall?
+7. Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021.How many negative reviews were placed and the percentage out of all negative sentiments?
+8.  Based off the findings from the year distribution by ratings chart, We see that in rating number 1 there is a large percent of reviews from year 2021 than any other year. How many reviews make up the positive, negative and neutral sentiments?
+
+
 
 
 # Summary of Findings
 --- 
-### Question 1: What is the average closing price for each stock, standard deviation and how do these stocks compare?
-![describe](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/d400c6b3-5e11-47de-bd08-a1242b13c72e)
+### Question 1: From the distribution of ratings chart, which rating has the most reviews? Least reviews?
+![a](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/ba21b231-7bec-4b4b-a9bf-1b3abd3f5f3e)
 
+- Rating number 5 has 523,774 reviews which makes up 67% of all the reviews.
+- Rating number 2 has 23,109 reviews which makes up only 3% of all the reviews.
 
-CMG (Chipotle Mexican Grill Inc.)
-CMG shows the highest average closing price (<b>2097.45</b>) among these stocks and the highest standard deviation (<b>278.77</b>), indicating the most significant price fluctuation.
 
-DRI (Darden Restaurants Inc.)
-The average closing price is <b>157.77</b>, with a standard deviation of <b>9.16</b>.
 
-MCD (McDonald's Corportation)
-The average closing price is <b>284.25</b>, with a standard deviation of <b>12.45</b>, indicting more variability in closing prices compared to DRI, SBUX and YUM.
+### Question 2:   From the distribution of sentiments chart, What are the number of reviews for each sentiment?
+![B](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/5d8d0a7a-22b0-4816-8aa2-04a252957ea7)
 
-SBUX (Starbucks Corporation)
-The average closing price is <b>98.35</b>, with a standard deviation of <b>5.22</b>, which has the smallest fluctuation in closing prices out of all the stocks.
+- The positive sentiment has a total of 522,765 reviews which equates to 67% of all reviews.
+- The neutral sentiment has a total of 207,918 reviews which equates to 27% of all reviews.
+- The negative sentiment has a total of 44,861 reviews which equates to 6% of all reviews.
 
-YUM (Yum! Brands Inc.)
-The average closing price is <b>131.09</b>, with a standard deviation of <b>5.61</b>.
 
-Overall, SBUX and YUM show modest growth with slight fluctuation in closing prices, DRI shows a bit more variability followed by MCD, but it is CMG which has the most price fluctuation out of all the stocks.
 
-### Question 2:  What is the closing price for each stock as of 03-19-2024? 
-![3192024](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/21db24db-ce47-476c-8e3b-7ef59ca510cc)
+### Question 3: Based off the findings from the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1. How many reviews make up this sentiment?
+![C](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/a007a824-a75d-48f3-84c1-2b962f5e807e)
+![q3code](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/bd06fb86-c545-42c6-b625-18a46313e651)
 
+There are a total of 21,987 reviews which make up the negative sentiment in rating number 1.
 
+### Question 4: Based off the findings from the distribution of author apps versions chart, which version has the most reviews and which has the least?
+![D](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/5734672d-590e-4049-b398-680937bfb881)
 
-MCD (McDonald's Corportation)
-On 03-19-2024 the closing price is <b>283.15</b>.
 
-SBUX (Starbucks Corporation)
-On 03-19-2024 the closing price is <b>91.72</b>.
+- version 3.9.4.0 has the most reviews being 28,448 which is 68% out of both versions.
+- version 4.73.0.3 has the least reviews being 13,578 which is 32% out of both versions.
 
-CMG (Chipotle Mexican Grill Inc.)
-On 03-19-2024 the closing price is <b>2792.85</b>.
 
-YUM (Yum! Brands Inc.)
-On 03-19-2024 the closing price is <b>137.21</b>.
 
-DRI (Darden Restaurants Inc.)
-On 03-19-2024 the closing price is <b>173.65</b>.
 
+### Question 5:  Based off the findings from the sentiment distribution across apps chart, version 4.73.0.3 has more negative sentiments than version 3.9.4.0. How many negative reviews are in this sentiment? How many negative reviews are in 3.9.4.0?
+![E](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/3e525613-f6da-43f0-9336-a31525fdd20a)
 
-### Question 3: What is the minimum closing price for each stock? What trading day did this occur on?
+![q54254](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/c07be4de-3687-4a26-afe5-8b7734f4cad3)
+![q51229](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/d11ac3de-be60-4c85-b9f6-7e16ed8de153)
 
->note: The minimum closing price in comparrison to price on 03-19-2024 shows the price change and how it provided the perfect buying opportunity.
 
-![mcd_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/d4d6aa6c-a2e3-485e-b89f-1a59dd59bb50)
+- There are a total of 4,254 negative reviews within version 4.73.0.3 which is 78% out of both versions.
+- There are a total of 1,229 negative reviews within version 3.9.4.0 which is 22% out of both versions.
 
 
-MCD (McDonald's Corportation)
-- The minumum closing price is <b>246.19</b> which took place on 10-12-2023
-- In comparrison the closing price is <b>283.15</b> on 03-19-2024
+### Question 6: Based off the findings from the distribution of years for reviews chart, which three years contained the most reviews and which year had the least amount of reviews overall?
+![F](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/dfc7cfcd-5f21-4c34-8f28-2aebe1463101)
 
-![sbux_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/f9d2713f-59e4-4701-86b7-6e35b04413e4)
+![q6years](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/c9e5cd3b-04a7-4b1f-b009-a6f17aab6602)
 
+- Year 2016 has a total of 132,491 reviews which equates to 17% of all reviews in a 15 year span.
+- Year 2017 has a total of 127,428 reviews which equates to 16% of all reviews in a 15 year span.
+- Year 2015 has a total of 117,048 reviews which equates to 15% of all reviews in a 15 year span.
+- Year 2009 has a total of 240 reviews which equates to 0.00030946 of all reviews in a 15 year span.
 
-SBUX (Starbucks Corporation)
-- The minumum closing price is <b>89.48</b> which took place on 10-03-2023
-- In comparrison the closing price is <b>91.72</b> on 03-19-2024 
 
-![cmg_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/9ed46c22-0090-4d01-b1ba-257589304e67)
 
-CMG (Chipotle Mexican Grill Inc.)
-- The minumum closing price is <b>1610.23</b> which took place on 03-20-2023
-- In comparrison the closing price is <b>2792.85</b> on 03-19-2024 
+### Question 7: Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021.How many negative reviews were placed and the percentage out of all negative sentiments?
+![G](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/ee17156b-97dc-4d8a-8c1e-2c0322cb8aff)
 
-![yum_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/bf948661-3ce1-47c1-8369-e3cc0fb7a72b)
+![q710383](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/38011c06-2510-4728-96cc-2df1f2f57985)
 
-YUM (Yum! Brands Inc.)
-- The minumum closing price is <b>116.25</b> which took place on 10-12-2023
-- In comparrison the closing price is <b>137.21</b> on 03-19-2024 
+![q744861](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/aaeb1e50-b9be-41a8-bcae-76d409a2fbfb)
 
-![dri_min](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/317e3f73-71fc-4a19-9703-a21fe071ea75)
 
-DRI (Darden Restaurants Inc.)
-- The minumum closing price is <b>134</b> which took place on 10-13-2023
-- In comparrison the closing price is <b>173.65</b> on 03-19-2024 
+- For the year 2021, there was a total of 10,383 reviews placed which is 23% of all the negative sentiments.
 
-### Question 4: Regarding the closing price for each stock, what are the trends and patterns over a one year timeframe and how do each compare? 
-![NEW_timeseries](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/7220a477-19f6-4cc2-8d78-3b6b22e297b2)
 
+### Question 8:  Based off the findings from the year distribution by ratings chart, We see that in rating number 1 there is a large percent of reviews from year 2021 than any other year. How many reviews make up the positive, negative and neutral sentiments?
 
-The above plot displays the time series of the closing prices for each stock (MCD, SBUX, CMG, YUM, DRI) over a one year observed period. 
-Let us next take a closer look at each stock individually so we can make an accurate reading.
+![H](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/a29e9315-e1a2-435e-bdef-5049d0b6f5b1)
 
-![MCD_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/e2d145c4-b398-41cc-8cb5-844e0834db94)
 
-MCD (McDonald's Corportation):
-- Q1 through Q22023 shows the stock price moving in an upward trend, then mid Q2 the price follows a sporadic sideways movement until begining of Q32023 where there is a trend reversal and the closing price follows a downward trend to the lowest price being <b>$246.19</b> on <b>10-12-2023</b>. There is a sudden trend reversal which continues upward into Q12024 and levels off into another sporadic sideways movement.
+![q8pos](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/25420e12-fb44-4855-845a-96b97ec4e01a)
 
-![SBUX_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/863fe80e-a654-40f8-8f41-5f6f50b1f6d3)
+![q8neg](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/191194af-c154-4656-b11c-6992462cca1d)
 
-SBUX (Starbucks Corporation):
-- Q1 through Q22023 shows the stock price gradually moving in an upward fluctuating trend until mid Q2 where there is a major trend reversal and the price follows a bearish market run with significant sideways movement until the lowest price is reached, that being <b>$89.48</b> on <b>10-03-2023</b>. There is a sudden trend reversal which continues slightly upward into Q42023, it continues until end of Q4 and the trend changes once more fluctuating downward into a sideways movement within Q12024.
+![q8neu](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/11531f44-2ca1-429c-b102-dae0d88ebd13)
 
-![CMG_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/3da6923f-8be8-4b22-9d9e-0ed9072b2481)
+![q8total](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/8a7a53fb-453f-4f98-a4ce-a386f7e25844)
 
-CMG (Chipotle Mexican Grill Inc.):
-- Q12023 starts out at the lowest closing price of the year being <b>$1610.23</b> on <b>3-20-2023</b>. The stock gradually follows an upward trend until Q22023 and soon experiences significant sideways movement until mid Q32023. The trend reverses and there is a sporadic down trend until Q42023, a sudden trend reversal follows with a gradual upward trend into Q12024.
+- For positive sentiments the total number is 2,047 which equates to 8% for 2021.
+- For negative sentiments the total number is 9,413 which equates to 39% for 2021.
+- For neutral sentiments the total number is 12,752 which equates to 53% for 2021.
 
-![YUM_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/33a59301-589f-4901-8faa-a2423fd9c906)
-
-YUM (Yum! Brands Inc.):
-- Q1 through Q22023 shows the stock price gradually moving in an upward trend until mid Q2, there is a sudden trend reversal where price fluctuates in a downward trend to the lowest closing price being <b>$116.25</b> on <b>10-12-2023</b>. There is a another sudden trend reversal which shows continued fluctuation upward into Q12024.
-
-![DRI_series](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/d1fd2466-16dd-4dd2-b044-892f95c858a0)
-
-DRI (Darden Restaurants Inc.):
-- Q1 through Q22023 shows the stock price following a downward sideways movement until end of Q2, were there is a trend reversal and the price fluctuates upward until mid Q32023. There is a trend reversal and the closing price follows a volatile downward trend until hitting lowest price, that being <b>$134</b> on <b>10-13-2023</b>. There is another trend reversal which takes place and the price steadily climbs upward into Q12024. 
-
- ### Comparrison:
-
- <b>Trend:</b> 
- - MCD, YUM and DRI all experience their lowest closing prices in Q42023 (10-12-2023 for MCD and YUM, 10-13-2023 for DRI).
- - Each stock experienced a trend reversal in Q42023 which followed a sporadic upward trend into Q12024 except SBUX, this stock had another trend reversal end of Q42023       and closing prices fluctuated downward into a sideways movement within Q12024.
-
- <b>Volatility:</b>
-- There is noticeable volatility in each of the stock prices. For example, CMG shows more pronounced fluctuations compared to all the others.
-
- <b>Comparative Performance:</b>
-- When comparing the stocks, DRI, YUM and SBUX generally trade at price levels close in range as opposed to MCD which is a bit higher in price. CMG trades at a substancially higher price than all the other stocks in this dataset.
-
-
-### Question 5: The volatility of the closing price gives us insight into how much the stock price fluctuates over a one year period. How does each stock rank in terms of volatility and in comparrison with each other?
-
-![volatility_analysis](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/1cf03a18-aab0-49ff-b53e-1234f1c665e5)
-
-CMG: Highest volatility with a standard deviation of approximately 275.90.<br> 
-MCD: Next highest, with a standard deviation of around 12.47.<br>
-DRI: Volatility rating right after MCD, with a standard deviation of around 9.12.<br>
-YUM: Slight volatility compared to others, with a standard deviation of about 5.61.<br>
-SBUX: The least volatile in this set, with a standard deviation of approximately 5.21.<br>
-
-In summary, CMG stock is more prone to price fluctuations during this period than compared to MCD, DRI, YUM and SBUX.
-YUM and SBUX closing prices are relatively steady, while DRI and MCD shows a bit more price changes.
-
-### Question 6: The Correlation Analysis helps us understand how the stock prices of each company are related. What are the findings and what does this tell us?
-![corr_analysis](https://github.com/KHard2Bme/Quantitative-Analysis-of-The-Stock-Market/assets/146769989/4f8ecb54-7c38-4778-a1fe-b556607e064c)
-
-
- From the heatmap, we can observe that there are varying degrees of positive and negative correlations between the stock prices, with some pairs showing stronger correlations than others.
-- MCD and YUM have a relatively higher positive correlation than any other stocks (0.81).
-- This makes perfect sense since both have very similar closing price trends and patterns over the past year 
-
-
-### Question 7: With Comparative Analysis we can compare the performance of different stocks based on their returns over a one year period. What is the percentage change in closing prices of each stock and how do they compare with each other?
-![compare_anaysis](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/14ef01ee-fea1-42a6-a16e-3d32125e83d4)
-
-
-CMG: The highest positive change of approximately 79.05%.<br>
-DRI: Exhibited a positive change of approximately 8.07%.It indicates a solid performance.<br>      
-MCD: Exhibited a positive change of approximately 5.85%.It also indicates a solid performance, though slightly lower than DRI and YUM.<br>
-SBUX: Experienced the most significant negative change, at approximately -7.53%. It suggests a notable decrease in its stock price during a one year period.<br>
-YUM: Exhibited a positive change of approximately 7.00%. It indicates a solid performance, slightly lower than DRI but higher than MCD.<br>
-
-
-### Question 8: With the Risk-Return Trade-off Analysis stocks with higher average returns and lower risk are generally more desirable, but investment decisions often depend on the investor’s risk tolerance. What is the risk associated with each stock and how do they compare with each other?
-![daily_risk](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/71e3ee4c-bbf7-4083-aaef-d5e66f487852)
-
-- MCD: shows the lowest risk combined with a positive average daily return, suggesting a more stable investment with consistent returns.
-- YUM: has a slightly higher volatility and daily returns than MCD, showing slightly more of a reward in investment.
-- DRI: shows moderate risk with the second highest average daily return, suggesting a potentially more rewarding investment, although with higher volatility compared to MCD and YUM.
-- SBUX: exhibits the second highest risk and has a negative average daily return, indicating a riskier and less rewarding investment during this period.
-- CMG: exhibits the highest risk but has the highest average daily return, indicating it was the most volatile but provided the most rewarding investment among these stocks over the analyzed period.
-
-### Question 9: Regarding the performance of each stock in comparisson to the S&P 500, what are their beta values and what does that number mean in comparison to the market movements?
-
->note: A beta greater than 1 suggests that a stock tends to be more volatile than the market.<br>
-
-![beta](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0b681c7c-2d6c-412c-8d90-3776d272f152)
-
-In the above code, we are assessing how sensitive McDonalds, Starbucks, Chipotle, Yum and Darden stocks are to overall market movements, providing insights into their relative volatility and risk about the broader U.S. stock market represented by the S&P 500 index.
-
-
-The beta value for McDonalds is approximately -0.02210,-2.21% more volatile or sensitive to market movements.<br>
-The beta value for Starbucks is approximately 0.06466, 6.47% more volatile or sensitive to market movements.<br>
-The beta value for Chipotle is approximatley 0.01268, 1.27% more volatile or sensitive to market movements.<br>
-The beta value for Yum is approximatly -0.02636, -2.64% more volatile or sensitive to maket movements.<br>
-The beta value for Darden is 0.07123, 7.12% more volatile or sensitive to market movements.<br>
 
 ## Summary:
 - Starbucks, Chipotle and Darden all have beta values less than 1, indicating that they are expected to be less volatile and sensitive to market movements.
