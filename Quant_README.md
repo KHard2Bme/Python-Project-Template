@@ -31,9 +31,9 @@ I will also perform Exploratory Data Analysis on the dataset to answer a few que
 # Data Sources
 ---
 
-The primary dataset used for this analysis is the "WAZE_REVIEWS.csv" file obtained from Kaggle which contains real data.<br>
+The primary dataset used for this analysis is the "WAZE_REVIEWS.csv" file obtained from Kaggle which contains 780,073 rows and 9 columns.<br>
 
-The dataset covers user reviews about the Waze app during years 2009 through 2023.<br>
+The dataset covers user reviews regarding the Waze app during the years 2009 through 2023.<br>
 
 # Exploratory Data Analysis
 ---
@@ -45,20 +45,21 @@ In my analysis I explore and answer the following questions:
 3. Based off the findings from the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1. How many reviews make up this sentiment?
 
 ### <h3 align="center">App Review Sentiments Analysis:<h3/>
--  Let’s perform a text analysis of the waze_data dataset to identify common words or themes within each sentiment category.
--  It involves examining the most frequently occurring words in positive, negative, and neutral reviews using a word cloud.<br><br>
+-  I will perform a text analysis of the waze_data dataset to identify common words or themes within each sentiment category.
+-  The analysis involves examining the most frequently occurring words in positive, negative, and neutral reviews using a word cloud.<br><br>
 
 
 </p>
 
 
 <p>  
+
  
 4. Based off the findings from the distribution of author apps versions chart, which version has the most reviews and which has the least?
 5. Based off the findings from the sentiment distribution across apps chart, version 4.73.0.3 has more negative sentiments than version 3.9.4.0. How many negative reviews are in this sentiment? How many negative reviews are in 3.9.4.0?
 
 ### <h3 align="center">App Review Sentiments Analysis:<h3/>
--  Let’s perform a text analysis on both author app versions 4.73.0.3 and 3.9.4.0 to identify common words or themes within the negative sentiment category.<br><br>
+-  I will perform a text analysis on both author app versions 4.73.0.3 and 3.9.4.0 to identify common words or themes within the negative sentiment category.<br><br>
 
 
 
@@ -67,8 +68,8 @@ In my analysis I explore and answer the following questions:
   
   
 6. Based off the findings from the distribution of years for reviews chart, which three years contained the most reviews and which year had the least amount of reviews overall?
-7. Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021.How many negative reviews were placed and the percentage out of all negative sentiments?
-8.  Based off the findings from the year distribution by ratings chart, We see that in rating number 1 there is a large percent of reviews from year 2021 than any other year. How many reviews make up the positive, negative and neutral sentiments?
+7. Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021.How many negative reviews were placed and the percentage out of all negative sentiments? How many negative reviews were from author app versions 4.73.0.3 and 3.9.4.0? 
+8.  Based off the findings from the year distribution by ratings chart, We see that in rating number 1 there is a large percent of reviews from year 2021 than any other year. How many reviews make up the positive, negative and neutral sentiments? How many negative reviews were from author app versions 4.73.0.3 and 3.9.4.0?
 
 
 
@@ -81,9 +82,12 @@ In my analysis I explore and answer the following questions:
 - Rating number 2 has 23,109 reviews which makes up only 3% of all the reviews.
 
 
+### As you can see, the above distribution of ratings chart gives you a clear picture of how many reviews fall into each rating category (from 1 to 5).
 
 ### Question 2:   From the distribution of sentiments chart, What are the number of reviews for each sentiment?
 ![B](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/5d8d0a7a-22b0-4816-8aa2-04a252957ea7)
+
+### In addition to the app having high ratings, reviewers also had many positive words in the reviews for the app.
 
 - The positive sentiment has a total of 522,765 reviews which equates to 67% of all reviews.
 - The neutral sentiment has a total of 207,918 reviews which equates to 27% of all reviews.
@@ -93,6 +97,9 @@ In my analysis I explore and answer the following questions:
 
 ### Question 3: Based off the findings from the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1. How many reviews make up this sentiment?
 ![C](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/a007a824-a75d-48f3-84c1-2b962f5e807e)
+
+### As you can see, most of the positive reviews fall within rating number 5 but most of the negative reviews fall within rating number 1.
+
 ![q3code](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/bd06fb86-c545-42c6-b625-18a46313e651)
 
 There are a total of 21,987 reviews which make up the negative sentiment in rating number 1.
@@ -105,7 +112,7 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 
 ### In addition to the app having high ratings and positive sentiments, reviewers also had many positive words in the reviews for the app.
 
-  
+### Lets now take a look at two random author app versions to see how many reviews each has and how they compare with each other; 4.73.0.3 and 3.9.4.0.
 
 ### Question 4: Based off the findings from the distribution of author apps versions chart, which version has the most reviews and which has the least?
 ![D](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/5734672d-590e-4049-b398-680937bfb881)
@@ -142,7 +149,7 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 
 ### As you can see, there are more negative words used in review text version 4.73.0.3 as opposed to version 3.9.4.0.
 
-
+### Lets now take a look at each of the years, how many reviews they each have and comparrisons.
 
 ### Question 6: Based off the findings from the distribution of years for reviews chart, which three years contained the most reviews and which year had the least amount of reviews overall?
 ![F](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/dfc7cfcd-5f21-4c34-8f28-2aebe1463101)
@@ -156,7 +163,7 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 
 
 
-### Question 7: Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021.How many negative reviews were placed and the percentage out of all negative sentiments?
+### Question 7: Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021.How many negative reviews were placed and the percentage out of all negative sentiments? How many negative reviews were from author app versions 4.73.0.3 and 3.9.4.0?
 ![G](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/ee17156b-97dc-4d8a-8c1e-2c0322cb8aff)
 
 ![q710383](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/38011c06-2510-4728-96cc-2df1f2f57985)
@@ -167,7 +174,7 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 - For the year 2021, there was a total of 10,383 reviews placed which is 23% of all the negative sentiments.
 
 
-### Question 8:  Based off the findings from the year distribution by ratings chart, We see that in rating number 1 there is a large percent of reviews from year 2021 than any other year. How many reviews make up the positive, negative and neutral sentiments?
+### Question 8:  Based off the findings from the year distribution by ratings chart, We see that in rating number 1 there is a large percent of reviews from year 2021 than any other year. How many reviews make up the positive, negative and neutral sentiments? How many negative reviews are from author app versions 4.73.0.3 and 3.9.4.0?
 
 ![H](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/a29e9315-e1a2-435e-bdef-5049d0b6f5b1)
 
