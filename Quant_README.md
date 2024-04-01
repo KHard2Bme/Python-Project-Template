@@ -35,21 +35,40 @@ The primary dataset used for this analysis is the "WAZE_REVIEWS.csv" file obtain
 
 The dataset covers user reviews about the Waze app during years 2009 through 2023.<br>
 
-
-
 # Exploratory Data Analysis
 ---
+<p>
 In my analysis I explore and answer the following questions:
 
 1. From the distribution of ratings chart, which rating has the most reviews? Least reviews?
 2. From the distribution of sentiments chart, What are the number of reviews for each sentiment?
 3. Based off the findings from the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1. How many reviews make up this sentiment?
+
+### <h3 align="center">App Review Sentiments Analysis:<h3/>
+-  Let’s perform a text analysis of the waze_data dataset to identify common words or themes within each sentiment category.
+-  It involves examining the most frequently occurring words in positive, negative, and neutral reviews using a word cloud.<br><br>
+
+
+</p>
+
+
+<p>  
+ 
 4. Based off the findings from the distribution of author apps versions chart, which version has the most reviews and which has the least?
 5. Based off the findings from the sentiment distribution across apps chart, version 4.73.0.3 has more negative sentiments than version 3.9.4.0. How many negative reviews are in this sentiment? How many negative reviews are in 3.9.4.0?
+
+### <h3 align="center">App Review Sentiments Analysis:<h3/>
+-  Let’s perform a text analysis on both author app versions 4.73.0.3 and 3.9.4.0 to identify common words or themes within the negative sentiment category.<br><br>
+
+
+
+</p>
+
+  
+  
 6. Based off the findings from the distribution of years for reviews chart, which three years contained the most reviews and which year had the least amount of reviews overall?
 7. Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021.How many negative reviews were placed and the percentage out of all negative sentiments?
 8.  Based off the findings from the year distribution by ratings chart, We see that in rating number 1 there is a large percent of reviews from year 2021 than any other year. How many reviews make up the positive, negative and neutral sentiments?
-
 
 
 
@@ -78,6 +97,16 @@ In my analysis I explore and answer the following questions:
 
 There are a total of 21,987 reviews which make up the negative sentiment in rating number 1.
 
+### <h3 align="center">App Review Sentiments Analysis:<h3/>
+-  Let’s perform a text analysis of the waze_data dataset to identify common words or themes within each sentiment category.
+![wc1p](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0315c577-d2eb-41e5-9777-7122ab3f2551)
+![wc1n](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/68705896-7828-4873-b540-747e1d559eb9)
+![wc1ne](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/26bb99fd-7b44-4bec-ae00-c82ac3590c0d)
+
+### In addition to the app having high ratings and positive sentiments, reviewers also had many positive words in the reviews for the app.
+
+  
+
 ### Question 4: Based off the findings from the distribution of author apps versions chart, which version has the most reviews and which has the least?
 ![D](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/5734672d-590e-4049-b398-680937bfb881)
 
@@ -97,6 +126,22 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 
 - There are a total of 4,254 negative reviews within version 4.73.0.3 which is 78% out of both versions.
 - There are a total of 1,229 negative reviews within version 3.9.4.0 which is 22% out of both versions.
+
+### <h3 align="center">App Review Sentiments Analysis:<h3/>
+-  Let’s perform a text analysis on both author app versions 4.73.0.3 and 3.9.4.0 to identify common words or themes in the negative sentiment to see if there are any major differences.<br><br>
+
+<h3 align="center">(Author app version 4.73.0.3)<h3/>
+ 
+![wc3neg](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/1ed4322c-53d9-4dcd-bae4-a72fd1807436)
+
+
+<h3 align="center">(Author app version 3.9.4.0)<h3/>
+ 
+![wc2neg3940](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0504b6a8-b478-4e26-a3b7-ea638205a831)
+
+
+### As you can see, there are more negative words used in review text version 4.73.0.3 as opposed to version 3.9.4.0.
+
 
 
 ### Question 6: Based off the findings from the distribution of years for reviews chart, which three years contained the most reviews and which year had the least amount of reviews overall?
