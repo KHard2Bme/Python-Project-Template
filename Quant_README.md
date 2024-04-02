@@ -33,7 +33,7 @@ I will also perform Exploratory Data Analysis on the dataset to answer a few que
 
 The primary dataset used for this analysis is the "WAZE_REVIEWS.csv" file obtained from Kaggle which contains 780,073 rows and 9 columns.<br>
 
-The dataset covers user reviews regarding the Waze app during the years 2009 through 2023.<br>
+The dataset covers user reviews regarding the Waze mobile app during the years 2009 through 2023.<br>
 
 # Exploratory Data Analysis
 ---
@@ -41,7 +41,7 @@ The dataset covers user reviews regarding the Waze app during the years 2009 thr
 In my analysis I explore and answer the following questions:
 
 1. From the distribution of ratings chart, which rating has the most reviews? Least reviews?
-2. From the distribution of sentiments chart, What are the number of reviews for each sentiment?
+2. From the distribution of sentiments chart, what are the number of reviews for each sentiment?
 3. Based off the findings from the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1. How many reviews make up this sentiment?
 
 ### <h3 align="center">App Review Sentiments Analysis:<h3/>
@@ -68,8 +68,8 @@ In my analysis I explore and answer the following questions:
   
   
 6. Based off the findings from the distribution of years for reviews chart, which three years contained the most reviews and which year had the least amount of reviews overall?
-7. Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021.How many negative reviews were placed and the percentage out of all negative sentiments? How many negative reviews were from author app versions 4.73.0.3 and 3.9.4.0? 
-8.  Based off the findings from the year distribution by ratings chart, We see that in rating number 1 there is a large percent of reviews from year 2021 than any other year. How many reviews make up the positive, negative and neutral sentiments? How many negative reviews were from author app versions 4.73.0.3 and 3.9.4.0?
+7. Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021. How many negative reviews have  been placed and the percentage out of all negative sentiments? How many negative reviews are from author app versions 4.73.0.3 and 3.9.4.0? 
+8.  Based off the findings from the year distribution by ratings chart, we see that in rating number 1 there is a large percent of reviews from year 2021 than any other year. How many reviews make up the positive, negative and neutral sentiments? How many negative reviews are from author app versions 4.73.0.3 and 3.9.4.0?
 
 
 
@@ -110,7 +110,6 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 ![wc1n](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/68705896-7828-4873-b540-747e1d559eb9)
 ![wc1ne](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/26bb99fd-7b44-4bec-ae00-c82ac3590c0d)
 
-### [In addition to the app having high ratings and positive sentiments, reviewers also had many positive words in the reviews for the app.]
 
 ### Lets now take a look at two random author app versions to see how many reviews each has and how they compare with each other; 4.73.0.3 and 3.9.4.0.
 
@@ -151,7 +150,7 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 
 ### Lets now take a look at each of the years, how many reviews they each have and comparrisons.
 
-### Question 6: Based off the findings from the distribution of years for reviews chart, which three years contained the most reviews and which year had the least amount of reviews overall?
+### Question 6: Based off the findings from the distribution of years for reviews chart, which three years contain the most reviews and which year has the least amount of reviews overall?
 ![F](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/dfc7cfcd-5f21-4c34-8f28-2aebe1463101)
 
 ![q6years](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/c9e5cd3b-04a7-4b1f-b009-a6f17aab6602)
@@ -163,7 +162,7 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 
 
 
-### Question 7: Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021.How many negative reviews were placed and the percentage out of all negative sentiments? How many negative reviews were from author app versions 4.73.0.3 and 3.9.4.0?
+### Question 7: Based off the findings from the sentiment distribution by year chart, the year with the most negative sentiments is 2021. How many negative reviews are placed and the percentage out of all negative sentiments? How many negative reviews are from author app versions 4.73.0.3 and 3.9.4.0?
 ![G](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/ee17156b-97dc-4d8a-8c1e-2c0322cb8aff)
 
 ![q710383](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/38011c06-2510-4728-96cc-2df1f2f57985)
@@ -174,11 +173,11 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 
 
 
-- For the year 2021, there was a total of 10,383 reviews placed which is 23% of all the negative sentiments.
+- For the year 2021, there is a total of 10,383 reviews placed which is 23% of all the negative sentiments.
 - Out of the 10,383 negative reviews 4,244(41%) of them are from the author app version 4.73.0.3, and 9(9%) are from version 3.9.4.0.
 
 
-### Question 8:  Based off the findings from the year distribution by ratings chart, We see that in rating number 1 there is a large percent of reviews from year 2021 than any other year. How many reviews make up the positive, negative and neutral sentiments? How many negative reviews are from author app versions 4.73.0.3 and 3.9.4.0?
+### Question 8:  Based off the findings from the year distribution by ratings chart, we see that in rating number 1 there is a large percent of reviews from year 2021 than any other year. How many reviews make up the positive, negative and neutral sentiments? How many negative reviews are from author app versions 4.73.0.3 and 3.9.4.0?
 
 ![H](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/a29e9315-e1a2-435e-bdef-5049d0b6f5b1)
 
@@ -202,15 +201,15 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 
 ## Summary:
 
-Based on the WAZE_REVIEWS.csv dataset we can tell that most of the user reviews have a very positive sentiment and are ranked within rating number 5.
+Based on the waze mobile app dataset we can tell that most of the user reviews have a very positive sentiment and are ranked within rating number 5.
 
-Based on the two author apps reviewed 3.9.4.0 has twice the amount of reviews than 4.73.0.3, but version 4.73.0.3 has four times the amount of negative sentiment.
+Based on the two author apps reviewed, 3.9.4.0 has twice the amount of reviews than 4.73.0.3, but version 4.73.0.3 has four times the amount of negative review sentiments.
 
-About 23% of the negative sentiments were placed in year 2021 with 41% coming from author app version 3.9.4.0 and 9% from version 4.73.0.3.
+About 23% of the negative sentiments were placed in year 2021 with 41% coming from author app version 4.73.0.3 and 9% from version 3.9.4.0.
 
 Of the negative sentiments placed in year 2021, those ranked in rating number 1 were 39%.
 
-Of those ranked in rating number 1, 9% came from author app version 3.9.4.0, while 41% came from author app version 4.73.0.3.
+Of those ranked in rating number 1, 41% came from author app version 4.73.0. while 9% came from author app version 3.9.4.0.
 
 Most of the reviews were made during 2014 through 2017.
 
