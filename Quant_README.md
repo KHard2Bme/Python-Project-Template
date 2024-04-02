@@ -82,12 +82,12 @@ In my analysis I explore and answer the following questions:
 - Rating number 2 has 23,109 reviews which makes up only 3% of all the reviews.
 
 
-### As you can see, the above distribution of ratings chart gives you a clear picture of how many reviews fall into each rating category (from 1 to 5).
+### [As you can see, the above distribution of ratings chart gives you a clear picture of how many reviews fall into each rating category (from 1 to 5)].
 
 ### Question 2:   From the distribution of sentiments chart, What are the number of reviews for each sentiment?
 ![B](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/5d8d0a7a-22b0-4816-8aa2-04a252957ea7)
 
-### In addition to the app having high ratings, reviewers also had many positive words in the reviews for the app.
+### [In addition to the app having high ratings, reviewers also had many positive words in the reviews for the app.]
 
 - The positive sentiment has a total of 522,765 reviews which equates to 67% of all reviews.
 - The neutral sentiment has a total of 207,918 reviews which equates to 27% of all reviews.
@@ -98,7 +98,7 @@ In my analysis I explore and answer the following questions:
 ### Question 3: Based off the findings from the sentiment distribution across ratings chart, the negative sentiment is at its highest in rating number 1. How many reviews make up this sentiment?
 ![C](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/a007a824-a75d-48f3-84c1-2b962f5e807e)
 
-### As you can see, most of the positive reviews fall within rating number 5 but most of the negative reviews fall within rating number 1.
+### [As you can see, most of the positive reviews fall within rating number 5 but most of the negative reviews fall within rating number 1].
 
 ![q3code](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/bd06fb86-c545-42c6-b625-18a46313e651)
 
@@ -110,7 +110,7 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 ![wc1n](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/68705896-7828-4873-b540-747e1d559eb9)
 ![wc1ne](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/26bb99fd-7b44-4bec-ae00-c82ac3590c0d)
 
-### In addition to the app having high ratings and positive sentiments, reviewers also had many positive words in the reviews for the app.
+### [In addition to the app having high ratings and positive sentiments, reviewers also had many positive words in the reviews for the app.]
 
 ### Lets now take a look at two random author app versions to see how many reviews each has and how they compare with each other; 4.73.0.3 and 3.9.4.0.
 
@@ -147,7 +147,7 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 ![wc2neg3940](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/0504b6a8-b478-4e26-a3b7-ea638205a831)
 
 
-### As you can see, there are more negative words used in review text version 4.73.0.3 as opposed to version 3.9.4.0.
+### [As you can see, there are more negative words used in review text version 4.73.0.3 as opposed to version 3.9.4.0.]
 
 ### Lets now take a look at each of the years, how many reviews they each have and comparrisons.
 
@@ -169,52 +169,53 @@ There are a total of 21,987 reviews which make up the negative sentiment in rati
 ![q710383](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/38011c06-2510-4728-96cc-2df1f2f57985)
 
 ![q744861](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/aaeb1e50-b9be-41a8-bcae-76d409a2fbfb)
+![4 73 0 3a](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/5882461d-0766-4d42-b938-1cddcd3a0c5a)
+![3 9 4 0a](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/11a33773-a37d-4610-a063-71fc28973ff3)
+
 
 
 - For the year 2021, there was a total of 10,383 reviews placed which is 23% of all the negative sentiments.
+- Out of the 10,383 negative reviews 4,244(41%) of them are from the author app version 4.73.0.3, and 9(9%) are from version 3.9.4.0.
 
 
 ### Question 8:  Based off the findings from the year distribution by ratings chart, We see that in rating number 1 there is a large percent of reviews from year 2021 than any other year. How many reviews make up the positive, negative and neutral sentiments? How many negative reviews are from author app versions 4.73.0.3 and 3.9.4.0?
 
 ![H](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/a29e9315-e1a2-435e-bdef-5049d0b6f5b1)
 
+![q8pos](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/4a5d34d1-720d-4ccf-b317-dd2513e54a95)
+![q8neg](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/6539740b-c37d-4461-9db6-f994d715b6fb)
+![q8neu](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/90253d38-f4dc-4388-8fc3-0a35026cee71)
 
-![q8pos](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/25420e12-fb44-4855-845a-96b97ec4e01a)
-
-![q8neg](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/191194af-c154-4656-b11c-6992462cca1d)
-
-![q8neu](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/11531f44-2ca1-429c-b102-dae0d88ebd13)
 
 ![q8total](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/8a7a53fb-453f-4f98-a4ce-a386f7e25844)
+
+![4 73 0 3b](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/66e2808b-a06b-45ac-a804-a7731b7656e0)
+
+![3 9 4 0b](https://github.com/KHard2Bme/Python-Project-Template/assets/146769989/f191d2c9-8454-413b-93f8-5a50657d4d76)
+
 
 - For positive sentiments the total number is 2,047 which equates to 8% for 2021.
 - For negative sentiments the total number is 9,413 which equates to 39% for 2021.
 - For neutral sentiments the total number is 12,752 which equates to 53% for 2021.
+- Out of the 9,413 negative reviews in rating number 1 4,136(44%) of them are from the author app version 4.73.0.3, and 9(10%) are from version 3.9.4.0.
 
 
 ## Summary:
-- Starbucks, Chipotle and Darden all have beta values less than 1, indicating that they are expected to be less volatile and sensitive to market movements.
-- McDonalds and Yum both have negative values which suggest they move in opposite direction to overall market movements. Although rare, there are some stocks in the market that have a negative beta<br>
 
-# Results from Findings
----
-As a reminder, I will be making a determination of a wonderful stock to pick from the viewpoint of an investor who is risk averse.
+Based on the WAZE_REVIEWS.csv dataset we can tell that most of the user reviews have a very positive sentiment and are ranked within rating number 5.
 
- After performing a Quatitative Analysis of five well known stocks in the restaurant industry; (MCD) McDonalds, 
-(SBUX) Starbucks, (CMG) Chipotle Mexican Grill, (YUM) Yum! Brands and (DRI) Darden Restaurants, within a one year time period of 3-20-2023 through 3-19-2024, the data shows that <b>(DRI) Darden Restaurants</b> would be the best choice.
+Based on the two author apps reviewed 3.9.4.0 has twice the amount of reviews than 4.73.0.3, but version 4.73.0.3 has four times the amount of negative sentiment.
+
+About 23% of the negative sentiments were placed in year 2021 with 41% coming from author app version 3.9.4.0 and 9% from version 4.73.0.3.
+
+Of the negative sentiments placed in year 2021, those ranked in rating number 1 were 39%.
+
+Of those ranked in rating number 1, 9% came from author app version 3.9.4.0, while 41% came from author app version 4.73.0.3.
+
+Most of the reviews were made during 2014 through 2017.
 
 
-  Factors which helped in the decision process were outcomes from the below statistical concepts:
- 
- - <b>Comparative Analysis:</b>    Out of all five stocks we looked at SBUX experienced the most significant negative change, at approximately -7.53%.
-  This left us with four stocks to analyze.
 
- - <b>Risk-Return Trade-off Analysis:</b>  CMG exhibited the highest risk out of all the stocks though having the highest average daily return.
-  We would have to remove this stock from the lineup, leaving us with three.
-
- - <b>Performance against the S&P500:</b>  MCD and Yum both have negative values which suggest they move in opposite direction to overall market movements.
-    For some, both stocks might be good because they act as a hedge against market downturns and can help reduce portfollio risks. For the average investor looking to make daily returns this might be a market risk. 
-    This leaves us with DRI as the wonderful stock to purchase; beta value is 0.07123 which is far below a beta of 1.
 
 
 
